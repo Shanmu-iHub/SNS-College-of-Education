@@ -239,16 +239,16 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
     </head>
     <body class="antialiased bg-gray-50">
         
-        <!-- Hanging Tag 1: CBSE -->
+        <!-- Hanging Tag 1: NCTE Recognized -->
         <div class="fixed top-[22%] right-0 z-50 swing">
             <div class="bg-gradient-to-br from-green-600 to-emerald-600 text-white px-4 py-6 rounded-l-2xl shadow-2xl">
-                <span class="font-extrabold text-sm uppercase tracking-widest" style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.2em;">CBSE</span>
+                <span class="font-extrabold text-[10px] uppercase tracking-widest text-center" style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.1em;">NCTE Recognized</span>
             </div>
         </div>
         
         <!-- Hanging Tag 2: Brochure -->
         <div class="fixed top-[36%] right-0 z-50 swing" style="animation-delay: 0.3s;">
-            <a href="https://snsacademy.org/brochure/" target="_blank" class="bg-gradient-to-br from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white px-4 py-8 rounded-l-2xl shadow-2xl flex flex-col items-center space-y-3 group transition-all">
+            <a href="/brochure" class="bg-gradient-to-br from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white px-4 py-8 rounded-l-2xl shadow-2xl flex flex-col items-center space-y-3 group transition-all">
                 <i class="fas fa-file-pdf text-2xl group-hover:scale-110 transition-transform duration-300"></i>
                 <span class="font-extrabold text-sm uppercase tracking-widest" style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.2em;">BROCHURE</span>
             </a>
@@ -270,7 +270,6 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                         <img src="/static/images/college_logo.jpeg" alt="Dr. SNS College of Education Logo" class="h-16 w-auto">
                         <div>
                             <h1 class="text-xl font-bold text-gray-900">Dr. SNS College of Education</h1>
-                            <p class="text-xs text-gray-500">Dr. SNS College of Education</p>
                         </div>
                     </a>
                     
@@ -420,7 +419,6 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             <img src="/static/images/college_logo.jpeg" alt="Dr. SNS College of Education Logo" class="h-12 w-auto bg-white rounded p-1">
                             <div>
                                 <h3 class="text-white font-bold">Dr. SNS College of Education</h3>
-                                <p class="text-xs">Dr. SNS College of Education</p>
                             </div>
                         </div>
                         <p class="text-sm leading-relaxed">

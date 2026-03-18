@@ -524,54 +524,32 @@ export const BrochurePage = () => {
         'Brochure'
     )}
 
-    <section class="py-16 bg-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-12 text-center shadow-xl">
-                <i class="fas fa-file-pdf text-8xl text-red-600 mb-8"></i>
-                <h2 class="text-4xl font-bold mb-4">SNS Academy Prospectus</h2>
-                <p class="text-xl text-gray-700 mb-8">
-                    Comprehensive guide with complete information about our programs, facilities, admission process, and fees structure.
-                </p>
-                
-                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                    <a href="https://snsacademy.org/brochure/" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
-                        <i class="fas fa-download mr-2"></i>
-                        Download Brochure
-                    </a>
-                    <a href="https://snsacademy.org/brochure/" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
-                        <i class="fas fa-external-link-alt mr-2"></i>
-                        View Online
-                    </a>
+    <section class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-100">
+                <!-- Digital Brochure Frame -->
+                <div style="position:relative;padding-top:max(60%,324px);width:100%;height:0;">
+                    <iframe style="position:absolute;border:none;width:100%;height:100%;left:0;top:0;" 
+                        src="https://online.fliphtml5.com/ldlzd/SNS-Institutions-Brochure-2025/" 
+                        title="SNS Institutions Brochure 2025" 
+                        seamless="seamless" 
+                        scrolling="no" 
+                        frameborder="0" 
+                        allowtransparency="true" 
+                        allowfullscreen="true">
+                    </iframe>
                 </div>
-                
-                <p class="text-sm text-gray-600">
-                    For printed copies, contact us at <a href="tel:+919629937861" class="text-blue-600 hover:underline">+91 96299 37861</a>
-                </p>
             </div>
-            
-            <div class="mt-12 grid md:grid-cols-3 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-graduation-cap text-3xl text-purple-600"></i>
-                    </div>
-                    <h3 class="font-bold text-lg mb-2">Academic Programs</h3>
-                    <p class="text-sm text-gray-600">Nursery to Grade XII curriculum details</p>
-                </div>
-                
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-building text-3xl text-blue-600"></i>
-                    </div>
-                    <h3 class="font-bold text-lg mb-2">Facilities Tour</h3>
-                    <p class="text-sm text-gray-600">Complete infrastructure overview</p>
-                </div>
-                
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-rupee-sign text-3xl text-green-600"></i>
-                    </div>
-                    <h3 class="font-bold text-lg mb-2">Fee Structure</h3>
-                    <p class="text-sm text-gray-600">Transparent pricing and payment options</p>
+
+            <!-- Additional Help / Contact -->
+            <div class="mt-12 text-center">
+                <p class="text-gray-600 mb-6">If the brochure doesn't load, you can also view it directly on FlipHTML5 or download the PDF.</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://online.fliphtml5.com/ldlzd/SNS-Institutions-Brochure-2025/#p=1" target="_blank"
+                        class="bg-[#009846] hover:bg-[#007b38] text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
+                        <i class="fas fa-external-link-alt mr-2"></i>
+                        Open Direct Link
+                    </a>
                 </div>
             </div>
         </div>
