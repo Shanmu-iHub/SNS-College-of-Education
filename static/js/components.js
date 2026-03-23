@@ -11,7 +11,7 @@ headerTemplate.innerHTML = `
 
     <!-- Hanging Tag 2: Brochure -->
     <div class="fixed top-[36%] right-0 z-50 swing" style="animation-delay: 0.3s;">
-        <a href="/brochure"
+        <a href="/brochure/"
             class="bg-gradient-to-br from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white px-4 py-8 rounded-l-2xl shadow-2xl flex flex-col items-center space-y-3 group transition-all">
             <i class="fas fa-file-pdf text-2xl group-hover:scale-110 transition-transform duration-300"></i>
             <span class="font-extrabold text-sm uppercase tracking-widest"
@@ -19,13 +19,54 @@ headerTemplate.innerHTML = `
         </a>
     </div>
 
-    <!-- Floating CTA Button (Mobile) -->
-    <div class="fixed bottom-6 left-6 z-50 lg:hidden">
-        <a href="/admissions"
-            class="bg-[#009846] hover:bg-[#007b38] text-white px-6 py-4 rounded-full shadow-2xl flex items-center space-x-2 pulse-slow">
-            <i class="fas fa-pen-to-square"></i>
-            <span class="font-bold">Apply Now</span>
-        </a>
+    <!-- Mobile Bottom Navigation -->
+    <div class="fixed bottom-0 left-0 w-full bg-white shadow-[0_-4px_10px_rgba(0,0,0,0.1)] z-50 lg:hidden rounded-t-2xl">
+        <div class="flex justify-around items-center h-16 relative px-2">
+            <a href="/" class="flex flex-col items-center justify-center w-16 text-gray-500 hover:text-[#009846] transition">
+                <i class="fas fa-home text-xl mb-1"></i>
+                <span class="text-[10px] font-medium">Home</span>
+            </a>
+            
+            <a href="/academics/b-ed/tamil.html" class="flex flex-col items-center justify-center w-16 text-gray-500 hover:text-[#009846] transition pt-1">
+                <i class="fas fa-chart-line text-xl mb-1"></i>
+                <span class="text-[10px] font-medium">Placements</span>
+            </a>
+
+            <!-- Center Action Button with Popup Sheet -->
+            <div class="relative -top-6 flex justify-center w-20 group">
+                <a href="javascript:void(0)" class="absolute flex flex-col items-center justify-center w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full shadow-lg text-white border-4 border-white hover:scale-105 transition-transform" onclick="document.getElementById('mobile-programs-sheet').classList.toggle('hidden');">
+                    <i class="fas fa-graduation-cap text-2xl"></i>
+                </a>
+                <span class="absolute top-12 text-[10px] font-bold text-[#009846] mt-1 whitespace-nowrap">Programs</span>
+                
+                <!-- Popup Sheet -->
+                <div id="mobile-programs-sheet" class="hidden absolute bottom-20 left-1/2 transform -translate-x-1/2 bg-white rounded-2xl shadow-2xl border border-gray-100 p-3 w-64 max-h-[60vh] overflow-y-auto z-50">
+                    <h4 class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2 px-2">B.Ed Programs</h4>
+                    <div class="grid grid-cols-1 gap-1 text-sm text-gray-700">
+                        <a href="/academics/b-ed/tamil.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Tamil</a>
+                        <a href="/academics/b-ed/english.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of English</a>
+                        <a href="/academics/b-ed/mathematics.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Mathematics</a>
+                        <a href="/academics/b-ed/physical-science.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Physical Science</a>
+                        <a href="/academics/b-ed/biological-science.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Biological Science</a>
+                        <a href="/academics/b-ed/history.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of History</a>
+                        <a href="/academics/b-ed/computer-science.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Computer Science</a>
+                        <a href="/academics/b-ed/economics.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Economics</a>
+                        <a href="/academics/b-ed/commerce.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Commerce</a>
+                        <a href="/academics/b-ed/social-science.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Social Science</a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="/about" class="flex flex-col items-center justify-center w-16 text-gray-500 hover:text-[#009846] transition pt-1">
+                <i class="fas fa-info-circle text-xl mb-1"></i>
+                <span class="text-[10px] font-medium">About Us</span>
+            </a>
+
+            <a href="/admissions" class="flex flex-col items-center justify-center w-16 text-gray-500 hover:text-[#009846] transition pt-1">
+                <i class="fas fa-edit text-xl mb-1"></i>
+                <span class="text-[10px] font-medium">Apply</span>
+            </a>
+        </div>
     </div>
 
     <!-- Navigation -->
@@ -234,7 +275,7 @@ footerTemplate.innerHTML = `
                         <li><a href="/success-stories" class="hover:text-white transition">Success Stories</a></li>
                         <li><a href="/transport" class="hover:text-white transition">Transport</a></li>
                         <li><a href="/innovation" class="hover:text-white transition">Innovation Hub</a></li>
-                        <li><a href="/brochure" class="hover:text-white transition">Download Brochure</a></li>
+                        <li><a href="/brochure/" class="hover:text-white transition">Download Brochure</a></li>
                         <li><a href="/admissions" class="hover:text-white transition">Admissions</a></li>
                         <li><a href="/contact" class="hover:text-white transition">Contact</a></li>
                     </ul>
