@@ -29,7 +29,7 @@ headerTemplate.innerHTML = `
             <!-- Placements item removed for mobile view -->
 
             <!-- Center Action Button with Popup Sheet -->
-            <div class="relative -top-6 flex justify-center w-20 group">
+            <div class="relative flex justify-center w-20 group" style="top: -18px;"> <!-- Adjusted top for higher alignment -->
                 <a href="javascript:void(0)" class="absolute flex flex-col items-center justify-center w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full shadow-lg text-white border-4 border-white hover:scale-105 transition-transform" onclick="document.getElementById('mobile-programs-sheet').classList.toggle('hidden');">
                     <i class="fas fa-graduation-cap text-2xl"></i>
                 </a>
