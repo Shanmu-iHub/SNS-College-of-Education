@@ -1,4 +1,3 @@
-
 const headerTemplate = document.createElement('template');
 headerTemplate.innerHTML = `
 <!-- Hanging Tag 1: NCTE Recognized -->
@@ -27,10 +26,7 @@ headerTemplate.innerHTML = `
                 <span class="text-[10px] font-medium">Home</span>
             </a>
             
-            <a href="/academics/b-ed/tamil.html" class="flex flex-col items-center justify-center w-16 text-gray-500 hover:text-[#009846] transition pt-1">
-                <i class="fas fa-chart-line text-xl mb-1"></i>
-                <span class="text-[10px] font-medium">Placements</span>
-            </a>
+            <!-- Placements item removed for mobile view -->
 
             <!-- Center Action Button with Popup Sheet -->
             <div class="relative -top-6 flex justify-center w-20 group">
