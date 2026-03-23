@@ -28,29 +28,12 @@ headerTemplate.innerHTML = `
             
             <!-- Placements item removed for mobile view -->
 
-            <!-- Center Action Button with Popup Sheet -->
-            <div class="relative flex justify-center w-20 group" style="top: -18px;"> <!-- Adjusted top for higher alignment -->
-                <a href="javascript:void(0)" class="absolute flex flex-col items-center justify-center w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full shadow-lg text-white border-4 border-white hover:scale-105 transition-transform" onclick="document.getElementById('mobile-programs-sheet').classList.toggle('hidden');">
+            <!-- Center Action Button -->
+            <div class="relative flex justify-center w-20 group" style="top: -18px;">
+                <a href="/#programs" class="flex flex-col items-center justify-center w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full shadow-lg text-white border-4 border-white hover:scale-105 transition-transform">
                     <i class="fas fa-graduation-cap text-2xl"></i>
                 </a>
                 <span class="absolute top-12 text-[10px] font-bold text-[#009846] mt-1 whitespace-nowrap">Programs</span>
-                
-                <!-- Popup Sheet -->
-                <div id="mobile-programs-sheet" class="hidden absolute bottom-20 left-1/2 transform -translate-x-1/2 bg-white rounded-2xl shadow-2xl border border-gray-100 p-3 w-64 max-h-[60vh] overflow-y-auto z-50">
-                    <h4 class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2 px-2">B.Ed Programs</h4>
-                    <div class="grid grid-cols-1 gap-1 text-sm text-gray-700">
-                        <a href="/academics/b-ed/tamil.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Tamil</a>
-                        <a href="/academics/b-ed/english.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of English</a>
-                        <a href="/academics/b-ed/mathematics.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Mathematics</a>
-                        <a href="/academics/b-ed/physical-science.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Physical Science</a>
-                        <a href="/academics/b-ed/biological-science.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Biological Science</a>
-                        <a href="/academics/b-ed/history.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of History</a>
-                        <a href="/academics/b-ed/computer-science.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Computer Science</a>
-                        <a href="/academics/b-ed/economics.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Economics</a>
-                        <a href="/academics/b-ed/commerce.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Commerce</a>
-                        <a href="/academics/b-ed/social-science.html" class="px-3 py-2 hover:bg-green-50 rounded-lg transition-colors">Pedagogy of Social Science</a>
-                    </div>
-                </div>
             </div>
 
             <a href="/about" class="flex flex-col items-center justify-center w-16 text-gray-500 hover:text-[#009846] transition pt-1">
