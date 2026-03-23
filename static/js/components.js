@@ -28,7 +28,7 @@ headerTemplate.innerHTML = `
             
             <!-- Center Action Button with Popup Sheet -->
             <div class="relative flex justify-center w-20 group" style="top: -18px;">
-                <a href="/index.html#programs" target="_blank" class="flex flex-col items-center justify-center w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full shadow-lg text-white border-4 border-white hover:scale-105 transition-transform">
+                <a href="/programs.html" target="_blank" class="flex flex-col items-center justify-center w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full shadow-lg text-white border-4 border-white hover:scale-105 transition-transform">
                     <i class="fas fa-graduation-cap text-2xl"></i>
                 </a>
                 <span class="absolute top-12 text-[10px] font-bold text-[#009846] mt-1 whitespace-nowrap">Programs</span>
