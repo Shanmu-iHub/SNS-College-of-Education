@@ -6,7 +6,7 @@ import { PrePrimaryPage, PrimaryPage, MiddleSchoolPage } from './pages/academics
 import { FacilitiesPage } from './pages/facilities'
 import { InnovationPage, AboutPage, ContactPage, AdmissionsPage } from './pages/remaining'
 import { MandatoryDisclosurePage } from './pages/mandatory-disclosure'
-import { GalleryPage, SportsClubsPage, BrochurePage } from './pages/gallery-sports'
+import { GalleryPage, SportsClubsPage } from './pages/gallery-sports'
 import { TransportPage } from './pages/transport'
 import { EventsPage } from './pages/events'
 import { SuccessStoriesPage } from './pages/success-stories'
@@ -293,10 +293,6 @@ app.get('/sports-clubs', (c) => {
     return c.html(Layout(SportsClubsPage(), 'Sports & Clubs', 'sports-clubs'))
 })
 
-// Brochure Page
-app.get('/brochure', (c) => {
-    return c.html(Layout(BrochurePage(), 'Digital Brochure', 'brochure'))
-})
 
 // Transport Page
 app.get('/transport', (c) => {

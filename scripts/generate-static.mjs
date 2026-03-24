@@ -17,7 +17,7 @@ const { PrePrimaryPage, PrimaryPage, MiddleSchoolPage } = jiti(path.join(root, '
 const { FacilitiesPage } = jiti(path.join(root, 'src/pages/facilities.tsx'));
 const { InnovationPage, AboutPage, ContactPage, AdmissionsPage } = jiti(path.join(root, 'src/pages/remaining.tsx'));
 const { MandatoryDisclosurePage } = jiti(path.join(root, 'src/pages/mandatory-disclosure.tsx'));
-const { GalleryPage, SportsClubsPage, BrochurePage } = jiti(path.join(root, 'src/pages/gallery-sports.tsx'));
+const { GalleryPage, SportsClubsPage } = jiti(path.join(root, 'src/pages/gallery-sports.tsx'));
 const { TransportPage } = jiti(path.join(root, 'src/pages/transport.tsx'));
 const { EventsPage } = jiti(path.join(root, 'src/pages/events.tsx'));
 const { SuccessStoriesPage } = jiti(path.join(root, 'src/pages/success-stories.tsx'));
@@ -46,7 +46,7 @@ const pages = [
   { file: 'admissions/index.html', html: Layout(AdmissionsPage(), 'Admissions', 'admissions') },
   { file: 'gallery/index.html', html: Layout(GalleryPage(), 'Campus Gallery', 'gallery') },
   { file: 'sports-clubs/index.html', html: Layout(SportsClubsPage(), 'Sports & Clubs', 'sports-clubs') },
-  { file: 'brochure/index.html', html: Layout(BrochurePage(), 'Digital Brochure', 'brochure') },
+
   { file: 'transport/index.html', html: Layout(TransportPage(), 'Transport Services', 'transport') },
   { file: 'events/index.html', html: Layout(EventsPage(), 'Events & Celebrations', 'events') },
   { file: 'success-stories/index.html', html: Layout(SuccessStoriesPage(), 'Success Stories', 'success-stories') },
