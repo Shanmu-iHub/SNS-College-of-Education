@@ -12,7 +12,7 @@ export const ParentsTestimonialsCarousel = () => {
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold text-gray-900 mb-4">What Parents Say About Us</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Hear from the parents who trust SNS Academy with their children's future
+                    Hear from the parents who trust Dr. SNS College of Education with their children's future
                 </p>
             </div>
 
@@ -41,7 +41,7 @@ export const ParentsTestimonialsCarousel = () => {
                                     <i class="fas fa-star text-yellow-500"></i>
                                 </div>
                                 <p class="text-gray-700 text-lg leading-relaxed mb-6">
-                                    "SNS Academy has transformed my daughter's approach to learning. The Stanford-trained faculty and design thinking methodology have made her a creative problem-solver. She's not just scoring well academically but also developing real-world skills. The personalized attention with 10:1 ratio is truly commendable."
+                                    "Dr. SNS College of Education has transformed my daughter's approach to learning. The Stanford-trained faculty and design thinking methodology have made her a creative problem-solver. She's not just scoring well academically but also developing real-world skills. The personalized attention with 10:1 ratio is truly commendable."
                                 </p>
                                 <div class="flex items-center text-orange-600 font-semibold">
                                     <i class="fas fa-check-circle mr-2"></i>
@@ -70,7 +70,7 @@ export const ParentsTestimonialsCarousel = () => {
                                     <i class="fas fa-star text-yellow-500"></i>
                                 </div>
                                 <p class="text-gray-700 text-lg leading-relaxed mb-6">
-                                    "The innovation labs and STEM focus at SNS Academy are exceptional. My son has participated in 3 national robotics competitions this year! The school's emphasis on both academics and innovation through SNS iHub is preparing him for future challenges. Highly recommend for parents seeking holistic development."
+                                    "The innovation labs and STEM focus at Dr. SNS College of Education are exceptional. My son has participated in 3 national robotics competitions this year! The school's emphasis on both academics and innovation through SNS iHub is preparing him for future challenges. Highly recommend for parents seeking holistic development."
                                 </p>
                                 <div class="flex items-center text-orange-600 font-semibold">
                                     <i class="fas fa-check-circle mr-2"></i>
@@ -99,7 +99,7 @@ export const ParentsTestimonialsCarousel = () => {
                                     <i class="fas fa-star text-yellow-500"></i>
                                 </div>
                                 <p class="text-gray-700 text-lg leading-relaxed mb-6">
-                                    "What sets SNS Academy apart is their genuine care for each child's overall development. The SPINE wellness program, 25+ clubs, and sports facilities are outstanding. My daughter loves the fingerprint approach where her unique talents are recognized and nurtured. The teachers are experienced and truly dedicated."
+                                    "What sets Dr. SNS College of Education apart is their genuine care for each child's overall development. The SPINE wellness program, 25+ clubs, and sports facilities are outstanding. My daughter loves the fingerprint approach where her unique talents are recognized and nurtured. The teachers are experienced and truly dedicated."
                                 </p>
                                 <div class="flex items-center text-orange-600 font-semibold">
                                     <i class="fas fa-check-circle mr-2"></i>
@@ -128,7 +128,7 @@ export const ParentsTestimonialsCarousel = () => {
                                     <i class="fas fa-star text-yellow-500"></i>
                                 </div>
                                 <p class="text-gray-700 text-lg leading-relaxed mb-6">
-                                    "SNS Academy's Stanford pathway program is phenomenal! My son secured admission to IIT thanks to the rigorous preparation and design thinking mindset developed here. The focus on innovation, leadership, and academic excellence truly prepares students for elite universities. Worth every investment!"
+                                    "Dr. SNS College of Education's Stanford pathway program is phenomenal! My son secured admission to IIT thanks to the rigorous preparation and design thinking mindset developed here. The focus on innovation, leadership, and academic excellence truly prepares students for elite universities. Worth every investment!"
                                 </p>
                                 <div class="flex items-center text-orange-600 font-semibold">
                                     <i class="fas fa-check-circle mr-2"></i>

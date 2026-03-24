@@ -388,7 +388,7 @@ export const InnovationPage = () => {
 export const AboutPage = () => {
     return `
     ${PageHeader(
-        'About SNS Academy',
+        'About Dr. SNS College of Education',
         'Redesigning Common Minds & Business Towards Excellence',
         '/static/images/hero.png',
         'About Us'
@@ -418,7 +418,7 @@ export const AboutPage = () => {
                             We believe in nurturing the next generation of innovators through our <strong>GenAI-Powered Design Thinking Framework (Patented)</strong>. Our approach goes beyond textbooks, embedding empathy and creativity into the core of learning.
                         </p>
                         <p class="text-lg text-gray-600 leading-relaxed">
-                            <strong>Sincerity, Nobility, and Service</strong> are not just our core values—they are the guiding principles that shape every student's character at SNS Academy.
+                            <strong>Sincerity, Nobility, and Service</strong> are not just our core values—they are the guiding principles that shape every student's character at Dr. SNS College of Education.
                         </p>
                     </div>
 
@@ -643,7 +643,7 @@ export const ContactPage = () => {
                             <i class="fas fa-map-marker-alt text-3xl text-orange-600 mr-4"></i>
                             <div>
                                 <h3 class="font-bold text-xl mb-2">Address</h3>
-                                <p class="text-gray-700">SNS Academy,<br>Thudiyalur - Saravanampatti Road,<br>Vellakinar Post,<br>Coimbatore - 641029.</p>
+                                <p class="text-gray-700">Dr. SNS College of Education,<br>Thudiyalur - Saravanampatti Road,<br>Vellakinar Post,<br>Coimbatore - 641029.</p>
                             </div>
                         </div>
                         <div class="flex items-start">

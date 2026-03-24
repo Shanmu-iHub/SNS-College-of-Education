@@ -59,7 +59,7 @@ export const EventsPage = () => {
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                         <div>
                             <h3 class="text-white font-bold text-2xl mb-2">Green Day Celebration</h3>
-                            <p class="text-white/90 text-sm mb-3">Our little learners of SNS Academy had stepped out of their classrooms and into nature as part of Green Day celebrations. Taken to the lush lawn areas, children were introduced to the importance of greenery, plants, and caring for our environment. A beautiful day filled with curiosity, smiles, and meaningful lessons—planting the seeds of environmental responsibility from an early age.</p>
+                            <p class="text-white/90 text-sm mb-3">Our little learners of Dr. SNS College of Education had stepped out of their classrooms and into nature as part of Green Day celebrations. Taken to the lush lawn areas, children were introduced to the importance of greenery, plants, and caring for our environment. A beautiful day filled with curiosity, smiles, and meaningful lessons—planting the seeds of environmental responsibility from an early age.</p>
                             <div class="flex items-center text-white/80 text-xs space-x-4 mb-3">
                                 <span><i class="fas fa-calendar mr-1"></i> Jan 2026</span>
                                 <span><i class="fas fa-leaf mr-1"></i> Environment</span>
@@ -175,7 +175,7 @@ export const EventsPage = () => {
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                         <div>
                             <h3 class="text-white font-bold text-2xl mb-2">Educational Tour</h3>
-                            <p class="text-white/90 text-sm mb-3">Our Mid Wing students of SNS Academy enjoyed an enriching educational tour to Thekkady, where learning met nature and adventure. From exploring the Periyar Wildlife Sanctuary to understanding biodiversity and conservation firsthand, the experience went beyond textbooks. Filled with teamwork, joy, and unforgettable memories!</p>
+                            <p class="text-white/90 text-sm mb-3">Our Mid Wing students of Dr. SNS College of Education enjoyed an enriching educational tour to Thekkady, where learning met nature and adventure. From exploring the Periyar Wildlife Sanctuary to understanding biodiversity and conservation firsthand, the experience went beyond textbooks. Filled with teamwork, joy, and unforgettable memories!</p>
                             <div class="flex items-center text-white/80 text-xs space-x-4 mb-3">
                                 <span><i class="fas fa-calendar mr-1"></i> Dec 2025</span>
                                 <span><i class="fas fa-hiking mr-1"></i> Thekkady</span>

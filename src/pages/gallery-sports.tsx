@@ -10,10 +10,10 @@ export const GalleryPage = () => {
         'Gallery'
     )}
 
-    <!-- Life at SNS Academy -->
+    <!-- Life at Dr. SNS College of Education -->
     <section class="py-16 bg-gradient-to-br from-yellow-50 to-orange-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-4">Life @ SNS Academy</h2>
+            <h2 class="text-4xl font-bold text-center mb-4">Life @ Dr. SNS College of Education</h2>
             <p class="text-center text-xl text-gray-600 mb-12">Where learning meets joy, and every day is an adventure!</p>
             
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
@@ -33,7 +33,7 @@ export const GalleryPage = () => {
                 
                 <div class="bg-white rounded-2xl overflow-hidden shadow-xl card-hover">
                     <div class="h-64 relative overflow-hidden">
-                        <img src="/static/images/SNS Academy Web/Colla Work.png" alt="Collaborative Work" class="w-full h-full object-cover">
+                        
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                         <div class="absolute bottom-4 left-4 text-white">
                             <i class="fas fa-users text-3xl mb-2"></i>
@@ -47,7 +47,7 @@ export const GalleryPage = () => {
                 
                 <div class="bg-white rounded-2xl overflow-hidden shadow-xl card-hover">
                     <div class="h-64 relative overflow-hidden">
-                        <img src="/static/images/SNS Academy Web/Happy Envirn.png" alt="Happy Environment" class="w-full h-full object-cover">
+                        
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                         <div class="absolute bottom-4 left-4 text-white">
                             <i class="fas fa-smile-beam text-3xl mb-2"></i>
@@ -507,7 +507,7 @@ export const SportsClubsPage = () => {
             <p class="text-xl mb-8">Join our sports teams and clubs to unlock your potential!</p>
             <a href="/admissions" class="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition inline-block">
                 <i class="fas fa-trophy mr-2"></i>
-                Join SNS Academy
+                Join Dr. SNS College of Education
             </a>
         </div>
     </section>

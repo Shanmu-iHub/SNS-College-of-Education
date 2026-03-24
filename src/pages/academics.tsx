@@ -171,7 +171,7 @@ export const PrimaryPage = () => {
                     <span class="text-orange-600 font-bold tracking-wider uppercase text-sm mb-2 block">Curriculum</span>
                     <h2 class="text-4xl font-bold text-gray-900 mb-6">CBSE with Innovation</h2>
                     <p class="text-lg text-gray-600 leading-relaxed mb-6">
-                        SNS Academy follows CBSE Curriculum enhanced with design thinking methodologies. Core English and Mathematics skills are explicitly taught from foundation, while the broader skills of Literacy and Numeracy are developed across all subject areas.
+                        Dr. SNS College of Education follows CBSE Curriculum enhanced with design thinking methodologies. Core English and Mathematics skills are explicitly taught from foundation, while the broader skills of Literacy and Numeracy are developed across all subject areas.
                     </p>
                     <p class="text-lg text-gray-600 leading-relaxed">
                         All classrooms are equipped with smart boards which are used regularly to facilitate learning, making education interactive and engaging.
@@ -180,7 +180,7 @@ export const PrimaryPage = () => {
                 <div class="relative">
                     <div class="absolute -top-4 -right-4 w-24 h-24 bg-orange-100 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
                      <div class="absolute -bottom-4 -left-4 w-24 h-24 bg-blue-100 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
-                    <img src="/static/images/SNS Academy Web/Primary Education.png" alt="Primary Classroom" class="relative rounded-2xl shadow-2xl w-full object-cover h-[400px]">
+                    
                 </div>
             </div>
         </div>
@@ -434,7 +434,7 @@ export const BEdPage = () => {
                     </p>
                 </div>
                 <div class="relative">
-                    <img src="/static/images/SNS Academy Web/The.png" alt="B.Ed. Learning" class="relative rounded-2xl shadow-2xl w-full object-cover h-[400px]">
+                    
                 </div>
             </div>
         </div>

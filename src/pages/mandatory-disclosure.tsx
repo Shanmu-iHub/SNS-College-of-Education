@@ -27,7 +27,7 @@ export const MandatoryDisclosurePage = () => {
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">1</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">NAME OF THE SCHOOL</td>
-                            <td class="border border-gray-300 px-4 py-3">SNS ACADEMY</td>
+                            <td class="border border-gray-300 px-4 py-3">Dr. SNS College of Education</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">2</td>

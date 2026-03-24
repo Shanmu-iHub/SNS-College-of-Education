@@ -6,7 +6,7 @@ export const HomePage = () => {
     <section class="relative text-white py-24 lg:py-32 overflow-hidden">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 z-0">
-            <img src="/static/images/hero.png" alt="SNS Academy Campus" class="w-full h-full object-cover">
+            <img src="/static/images/hero.png" alt="Dr. SNS College of Education Campus" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-r from-black/10 via-black/10 to-transparent"></div>
         </div>
         
@@ -114,11 +114,11 @@ export const HomePage = () => {
         </div>
     </section>
 
-    <!-- Why SNS Academy -->
+    <!-- Why Dr. SNS College of Education -->
     <section class="py-24 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl lg:text-5xl font-bold mb-6 text-orange-600">Why Parents Choose SNS Academy</h2>
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6 text-orange-600">Why Parents Choose Dr. SNS College of Education</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                     We don't just teach subjects—we redesign common minds through design thinking, preparing your child for tomorrow's challenges.
                 </p>
