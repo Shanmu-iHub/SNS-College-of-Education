@@ -462,7 +462,7 @@ export const AboutPage = () => {
                         <!-- Pillar 1 -->
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
                             <div class="h-48 overflow-hidden">
-                                <img src="/static/images/Learning.png" alt="Learning" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                                <img src="/static/images/culture/Website Photo/1.JPG" alt="Learning" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
                             </div>
                             <div class="p-8">
                                 <h3 class="text-xl font-bold mb-3 text-gray-900">1. Learning & Teaching</h3>
@@ -475,7 +475,7 @@ export const AboutPage = () => {
                         <!-- Pillar 2 -->
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
                             <div class="h-48 overflow-hidden">
-                                <img src="/static/images/Skill.png" alt="Skill Development" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                                <img src="/static/images/culture/Website Photo/2.JPG" alt="Skill Development" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
                             </div>
                             <div class="p-8">
                                 <h3 class="text-xl font-bold mb-3 text-gray-900">2. Skill & Career Development</h3>
@@ -488,7 +488,7 @@ export const AboutPage = () => {
                         <!-- Pillar 3 -->
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
                             <div class="h-48 overflow-hidden">
-                                <img src="/static/images/Creativity.png" alt="Creativity" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                                <img src="/static/images/culture/Website Photo/3.JPG" alt="Creativity" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
                             </div>
                             <div class="p-8">
                                 <h3 class="text-xl font-bold mb-3 text-gray-900">3. Centre for Creativity</h3>
@@ -501,7 +501,7 @@ export const AboutPage = () => {
                         <!-- Pillar 4 -->
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
                             <div class="h-48 overflow-hidden">
-                                <img src="/static/images/IIPC.png" alt="Industry Partnership" class="w-full h-full object-cover transform group-hover:scale-100 transition duration-700">
+                                <img src="/static/images/culture/Website Photo/4.JPG" alt="Industry Partnership" class="w-full h-full object-cover transform group-hover:scale-100 transition duration-700">
                             </div>
                             <div class="p-8">
                                 <h3 class="text-xl font-bold mb-3 text-gray-900">4. Industry Partnership</h3>
@@ -514,7 +514,7 @@ export const AboutPage = () => {
                         <!-- Pillar 5 -->
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
                             <div class="h-48 overflow-hidden">
-                                <img src="/static/images/SRI.png" alt="Social Responsibility" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                                <img src="/static/images/culture/Website Photo/5.JPG" alt="Social Responsibility" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
                             </div>
                             <div class="p-8">
                                 <h3 class="text-xl font-bold mb-3 text-gray-900">5. Social Responsibility</h3>
@@ -529,7 +529,7 @@ export const AboutPage = () => {
 
                                 <!-- Background Image -->
                                 <img 
-                                    src="/static/images/3P.jpg"
+                                    src="/static/images/culture/Website Photo/6.JPG"
                                     alt="3P Culture"
                                     class="absolute inset-0 w-full h-full object-cover"
                                 />
@@ -672,133 +672,43 @@ export const ContactPage = () => {
                 <div class="bg-gray-50 rounded-2xl p-8">
                     <h3 class="text-2xl md:text-3xl font-bold mb-6 text-center">Admission and Enquiry Form</h3>
                     
-                    <!-- Bitrix24 Form with Custom Styling -->
-                    <style>
-                        /* Bitrix Form Custom Styles */
-                        .b24-form-wrapper {
-                            background: transparent !important;
-                            border: none !important;
-                            padding: 0 !important;
-                            box-shadow: none !important;
-                        }
-                        
-                        .b24-form-header {
-                            display: none !important;
-                        }
-                        
-                        .b24-form-field {
-                            margin-bottom: 24px !important;
-                        }
-                        
-                        /* Remove Bitrix auto separators */
-                        .b24-form-separator,
-                        .b24-form-field-separator,
-                        .b24-form-field::before,
-                        .b24-form-field::after {
-                            display: none !important;
-                            content: none !important;
-                            height: 0 !important;
-                            border: none !important;
-                        }
-                        
-                        /* Hide labels visually but keep for Bitrix logic */
-                        .b24-form-control-label {
-                            position: absolute !important;
-                            opacity: 0 !important;
-                            pointer-events: none !important;
-                        }
-                        
-                        /* Input styling */
-                        .b24-form-control {
-                            width: 100% !important;
-                            background: #ffffff !important;
-                            border: 1px solid #dfe3e8 !important;
-                            border-radius: 14px !important;
-                            padding: 16px 18px !important;
-                            font-size: 15px !important;
-                            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
-                            color: #111 !important;
-                            box-shadow: none !important;
-                        }
-                        
-                        .b24-form-control::placeholder {
-                            color: #9aa0a6 !important;
-                            font-weight: 400;
-                        }
-                        
-                        .b24-form-control:focus {
-                            border-color: #111 !important;
-                            outline: none !important;
-                        }
-                        
-                        /* Dropdown styling */
-                        .b24-form-dropdown {
-                            border-radius: 14px !important;
-                            border: 1px solid #fcfcfc !important;
-                            box-shadow: 0 12px 28px rgba(0,0,0,0.12) !important;
-                        }
-                        
-                        .b24-form-dropdown-item {
-                            padding: 14px 18px !important;
-                            font-size: 15px !important;
-                            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
-                        }
-                        
-                        .b24-form-dropdown-item:hover {
-                            background: #f5f6f8 !important;
-                        }
-                        
-                        /* Submit button */
-                        .b24-form-btn {
-                            width: 100% !important;
-                            margin-top: 28px !important;
-                            padding: 18px !important;
-                            border-radius: 16px !important;
-                            background: #e94a28 !important;
-                            color: #000 !important;
-                            font-size: 18px !important;
-                            font-weight: 600 !important;
-                            border: none !important;
-                            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
-                            cursor: pointer !important;
-                            transition: all 0.3s ease !important;
-                        }
-                        
-                        .b24-form-btn:hover {
-                            background: #d43d1f !important;
-                            transform: translateY(-1px);
-                        }
-                        
-                        /* Footer text */
-                        .b24-form-sign {
-                            margin-top: 20px !important;
-                            font-size: 13px !important;
-                            color: #9aa0a6 !important;
-                        }
-                    </style>
                     
-                    <script data-b24-form="inline/18/m4ecvi" data-skip-moving="true">
-                    (function(w,d,u){
-                        var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
-                        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-                    })(window,document,'https://cdn.bitrix24.com/b11752903/crm/form/loader_18.js');
-                    </script>
+                <!-- Custom Form UI matching reference -->
+                <form class="space-y-6 mt-4">
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Full Name <span class="text-red-500">*</span></label>
+                        <input type="text" placeholder="Enter your full name" class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 text-gray-700" required>
+                    </div>
                     
-                    <script>
-                    /* Placeholder + Asterisk Fix */
-                    setTimeout(function () {
-                        document.querySelectorAll('.b24-form-field').forEach(function (field) {
-                            const label = field.querySelector('.b24-form-control-label');
-                            const input = field.querySelector('.b24-form-control');
-                            
-                            if (label && input) {
-                                let text = label.textContent.replace(/\\s*\\*$/, '').trim();
-                                let required = label.textContent.includes('*');
-                                input.placeholder = required ? text + ' *' : text;
-                            }
-                        });
-                    }, 500);
-                    </script>
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Course Selection <span class="text-red-500">*</span></label>
+                        <select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 appearance-none bg-white" required>
+                            <option value="" disabled selected>Select a course</option>
+                            <option value="B.Ed">B.Ed</option>
+                            <option value="M.Ed">M.Ed</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Email ID <span class="text-red-500">*</span></label>
+                        <input type="email" placeholder="Enter your email address" class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 text-gray-700" required>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Date of Birth <span class="text-red-500">*</span></label>
+                        <input type="date" class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500" required>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Phone Number <span class="text-red-500">*</span></label>
+                        <input type="tel" placeholder="Enter phone number with country code (e.g., +91...)" class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 text-gray-700" required>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-[#8b91cc] hover:bg-[#7b81bc] text-white font-bold text-lg py-4 rounded-xl transition duration-300">
+                        Call Me
+                    </button>
+                </form>
+
                 </div>
             </div>
         </div>
@@ -865,133 +775,43 @@ export const AdmissionsPage = () => {
             <div class="bg-white rounded-2xl p-8 shadow-lg">
                 <h3 class="text-2xl md:text-3xl font-bold mb-6 text-center">Admission and Enquiry Form</h3>
                 
-                <!-- Bitrix24 Form with Custom Styling -->
-                <style>
-                    /* Bitrix Form Custom Styles */
-                    .b24-form-wrapper {
-                        background: transparent !important;
-                        border: none !important;
-                        padding: 0 !important;
-                        box-shadow: none !important;
-                    }
-                    
-                    .b24-form-header {
-                        display: none !important;
-                    }
-                    
-                    .b24-form-field {
-                        margin-bottom: 24px !important;
-                    }
-                    
-                    /* Remove Bitrix auto separators */
-                    .b24-form-separator,
-                    .b24-form-field-separator,
-                    .b24-form-field::before,
-                    .b24-form-field::after {
-                        display: none !important;
-                        content: none !important;
-                        height: 0 !important;
-                        border: none !important;
-                    }
-                    
-                    /* Hide labels visually but keep for Bitrix logic */
-                    .b24-form-control-label {
-                        position: absolute !important;
-                        opacity: 0 !important;
-                        pointer-events: none !important;
-                    }
-                    
-                    /* Input styling */
-                    .b24-form-control {
-                        width: 100% !important;
-                        background: #ffffff !important;
-                        border: 1px solid #dfe3e8 !important;
-                        border-radius: 14px !important;
-                        padding: 16px 18px !important;
-                        font-size: 15px !important;
-                        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
-                        color: #111 !important;
-                        box-shadow: none !important;
-                    }
-                    
-                    .b24-form-control::placeholder {
-                        color: #9aa0a6 !important;
-                        font-weight: 400;
-                    }
-                    
-                    .b24-form-control:focus {
-                        border-color: #111 !important;
-                        outline: none !important;
-                    }
-                    
-                    /* Dropdown styling */
-                    .b24-form-dropdown {
-                        border-radius: 14px !important;
-                        border: 1px solid #fcfcfc !important;
-                        box-shadow: 0 12px 28px rgba(0,0,0,0.12) !important;
-                    }
-                    
-                    .b24-form-dropdown-item {
-                        padding: 14px 18px !important;
-                        font-size: 15px !important;
-                        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
-                    }
-                    
-                    .b24-form-dropdown-item:hover {
-                        background: #f5f6f8 !important;
-                    }
-                    
-                    /* Submit button */
-                    .b24-form-btn {
-                        width: 100% !important;
-                        margin-top: 28px !important;
-                        padding: 18px !important;
-                        border-radius: 16px !important;
-                        background: #e94a28 !important;
-                        color: #000 !important;
-                        font-size: 18px !important;
-                        font-weight: 600 !important;
-                        border: none !important;
-                        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
-                        cursor: pointer !important;
-                        transition: all 0.3s ease !important;
-                    }
-                    
-                    .b24-form-btn:hover {
-                        background: #d43d1f !important;
-                        transform: translateY(-1px);
-                    }
-                    
-                    /* Footer text */
-                    .b24-form-sign {
-                        margin-top: 20px !important;
-                        font-size: 13px !important;
-                        color: #9aa0a6 !important;
-                    }
-                </style>
                 
-                <script data-b24-form="inline/18/m4ecvi" data-skip-moving="true">
-                (function(w,d,u){
-                    var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
-                    var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-                })(window,document,'https://cdn.bitrix24.com/b11752903/crm/form/loader_18.js');
-                </script>
-                
-                <script>
-                /* Placeholder + Asterisk Fix */
-                setTimeout(function () {
-                    document.querySelectorAll('.b24-form-field').forEach(function (field) {
-                        const label = field.querySelector('.b24-form-control-label');
-                        const input = field.querySelector('.b24-form-control');
-                        
-                        if (label && input) {
-                            let text = label.textContent.replace(/\\s*\\*$/, '').trim();
-                            let required = label.textContent.includes('*');
-                            input.placeholder = required ? text + ' *' : text;
-                        }
-                    });
-                }, 500);
-                </script>
+                <!-- Custom Form UI matching reference -->
+                <form class="space-y-6 mt-4">
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Full Name <span class="text-red-500">*</span></label>
+                        <input type="text" placeholder="Enter your full name" class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 text-gray-700" required>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Course Selection <span class="text-red-500">*</span></label>
+                        <select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 appearance-none bg-white" required>
+                            <option value="" disabled selected>Select a course</option>
+                            <option value="B.Ed">B.Ed</option>
+                            <option value="M.Ed">M.Ed</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Email ID <span class="text-red-500">*</span></label>
+                        <input type="email" placeholder="Enter your email address" class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 text-gray-700" required>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Date of Birth <span class="text-red-500">*</span></label>
+                        <input type="date" class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500" required>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Phone Number <span class="text-red-500">*</span></label>
+                        <input type="tel" placeholder="Enter phone number with country code (e.g., +91...)" class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 text-gray-700" required>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-[#8b91cc] hover:bg-[#7b81bc] text-white font-bold text-lg py-4 rounded-xl transition duration-300">
+                        Call Me
+                    </button>
+                </form>
+
             </div>
         </div>
     </section>

@@ -340,105 +340,43 @@
                 <p>Loading form...</p>
             </div>
 
-            <!-- Bitrix24 Form -->
-            <div id="bitrix-form-container"></div>
-            <script data-b24-form="inline/18/m4ecvi" data-skip-moving="true">
-                (function (w, d, u) {
-                    var s = d.createElement('script');
-                    s.async = true;
-                    s.src = u + '?' + (Date.now() / 180000 | 0);
-                    var h = d.getElementsByTagName('script')[0];
-                    h.parentNode.insertBefore(s, h);
-                })(window, document, 'https://cdn.bitrix24.com/b11752903/crm/form/loader_18.js');
-            </script>
-        </div>
-
-        <!-- Contact Information -->
-        <div class="info-section">
-            <div class="info-grid">
-                <div class="info-item">
-                    <div class="info-icon">
-                        <i class="fas fa-map-marker-alt"></i>
+            
+                <!-- Custom Form UI matching reference -->
+                <form class="space-y-6 mt-4">
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Full Name <span class="text-red-500">*</span></label>
+                        <input type="text" placeholder="Enter your full name" class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 text-gray-700" required>
                     </div>
-                    <div class="info-content">
-                        <h3>Address</h3>
-                        <p>Thudiyalur - Saravanampatti Road,<br>Vellakinar Post, Coimbatore - 641029</p>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Course Selection <span class="text-red-500">*</span></label>
+                        <select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 appearance-none bg-white" required>
+                            <option value="" disabled selected>Select a course</option>
+                            <option value="B.Ed">B.Ed</option>
+                            <option value="M.Ed">M.Ed</option>
+                        </select>
                     </div>
-                </div>
-
-                <div class="info-item">
-                    <div class="info-icon">
-                        <i class="fas fa-phone"></i>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Email ID <span class="text-red-500">*</span></label>
+                        <input type="email" placeholder="Enter your email address" class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 text-gray-700" required>
                     </div>
-                    <div class="info-content">
-                        <h3>Phone</h3>
-                        <p>Admission: <a href="tel:+919629937861">+91 96299 37861</a><br>
-                            Landline: <a href="tel:+917530093730">+91 75300 93730</a></p>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Date of Birth <span class="text-red-500">*</span></label>
+                        <input type="date" class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500" required>
                     </div>
-                </div>
-
-                <div class="info-item">
-                    <div class="info-icon">
-                        <i class="fas fa-envelope"></i>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-900 mb-2">Phone Number <span class="text-red-500">*</span></label>
+                        <input type="tel" placeholder="Enter phone number with country code (e.g., +91...)" class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 text-gray-700" required>
                     </div>
-                    <div class="info-content">
-                        <h3>Email</h3>
-                        <p>General: <a href="mailto:info@snsacademy.org">info@snsacademy.org</a><br>
-                            Career: <a href="mailto:job@snsgroups.com">job@snsgroups.com</a></p>
-                    </div>
-                </div>
+                    
+                    <button type="submit" class="w-full bg-[#8b91cc] hover:bg-[#7b81bc] text-white font-bold text-lg py-4 rounded-xl transition duration-300">
+                        Call Me
+                    </button>
+                </form>
 
-                <div class="info-item">
-                    <div class="info-icon">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <div class="info-content">
-                        <h3>Visit Us</h3>
-                        <p>Monday - Friday: 9:00 AM - 5:00 PM<br>
-                            Saturday: 9:00 AM - 1:00 PM</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // Hide loading spinner when form loads
-        setTimeout(function () {
-            var loading = document.getElementById('loading');
-            if (loading) {
-                loading.style.display = 'none';
-            }
-        }, 2000);
-
-        // Placeholder + Asterisk Fix
-        setTimeout(function () {
-            document.querySelectorAll('.b24-form-field').forEach(function (field) {
-                const label = field.querySelector('.b24-form-control-label');
-                const input = field.querySelector('.b24-form-control');
-
-                if (label && input) {
-                    let text = label.textContent.replace(/\s*\*$/, '').trim();
-                    let required = label.textContent.includes('*');
-                    input.placeholder = required ? text + ' *' : text;
-                }
-            });
-
-            // Hide loading after form is ready
-            var loading = document.getElementById('loading');
-            if (loading) {
-                loading.style.display = 'none';
-            }
-        }, 1000);
-
-        // Form submission tracking (optional)
-        document.addEventListener('submit', function (e) {
-            if (e.target.classList.contains('b24-form')) {
-                console.log('Form submitted successfully!');
-                // You can add analytics tracking here
-            }
-        });
-    </script>
 </body>
 
 </html>
