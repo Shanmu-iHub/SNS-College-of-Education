@@ -48,7 +48,7 @@ export const EventsPage = () => {
                 <!-- Event 2: Green Day Celebration -->
                 <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
                     <div class="absolute inset-0">
-                        <img src="https://scontent-maa5-1.cdninstagram.com/v/t51.82787-15/611728039_17911953312271418_5225745699396843246_n.webp?_nc_cat=106&ig_cache_key=MzgwNjY5MDI0MTg3NzYzNTY4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4NzIwLnNkci5DMyJ9&_nc_ohc=xGaUyz2YMlwQ7kNvwHR9QsT&_nc_oc=Adm3ek1R3q64eopEjFdURx7ZSsSdUSz8b7nqM1IBToWDI0XL-k0mq54F5hiIKmodbZk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa5-1.cdninstagram.com&_nc_gid=eBHSSBXLsiP3Fka5gDdNAw&oh=00_AftD9HwAS4fNAE1LcVxurYxSvIeqdzrO4_IwQuyUxZL1QQ&oe=698757F0" alt="Green Day Celebration" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="/static/images/green-day-new.jpg" alt="Green Day Celebration" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     </div>
                     <!-- Always visible title -->
