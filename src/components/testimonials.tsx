@@ -30,7 +30,7 @@ export const ParentsTestimonialsCarousel = () => {
                                     </div>
                                     <div>
                                         <h4 class="text-xl font-bold text-gray-900">Mrs. Priya Sharma</h4>
-                                        <p class="text-gray-600">Parent of Grade X Student</p>
+                                        <p class="text-gray-600">Parent of 1st Year B.Ed Student</p>
                                     </div>
                                 </div>
                                 <div class="mb-4">
@@ -59,7 +59,7 @@ export const ParentsTestimonialsCarousel = () => {
                                     </div>
                                     <div>
                                         <h4 class="text-xl font-bold text-gray-900">Mr. Rajesh Kumar</h4>
-                                        <p class="text-gray-600">Parent of Grade VII Student</p>
+                                        <p class="text-gray-600">Parent of 2nd Year B.Ed Student</p>
                                     </div>
                                 </div>
                                 <div class="mb-4">
@@ -88,7 +88,7 @@ export const ParentsTestimonialsCarousel = () => {
                                     </div>
                                     <div>
                                         <h4 class="text-xl font-bold text-gray-900">Mrs. Anita Menon</h4>
-                                        <p class="text-gray-600">Parent of Grade V Student</p>
+                                        <p class="text-gray-600">Parent of 1st Year M.Ed Student</p>
                                     </div>
                                 </div>
                                 <div class="mb-4">
@@ -117,7 +117,7 @@ export const ParentsTestimonialsCarousel = () => {
                                     </div>
                                     <div>
                                         <h4 class="text-xl font-bold text-gray-900">Dr. Vijay Narayan</h4>
-                                        <p class="text-gray-600">Parent of Grade XII Student</p>
+                                        <p class="text-gray-600">Parent of 2nd Year M.Ed Student</p>
                                     </div>
                                 </div>
                                 <div class="mb-4">
