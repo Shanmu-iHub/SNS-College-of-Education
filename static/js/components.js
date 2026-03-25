@@ -315,7 +315,7 @@ footerTemplate.innerHTML = `
         <i class="fab fa-instagram"></i>
     </a>
     <!-- WhatsApp Floating Icon -->
-    <a href="https://wa.me/919629937861" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+    <a href="https://wa.me/917530093728" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
         title="Chat with us on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>

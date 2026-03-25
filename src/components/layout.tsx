@@ -456,7 +456,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                         <h4 class="text-white font-bold mb-4">Connect</h4>
                         <ul class="space-y-2 text-sm mb-4">
                             <li><i class="fas fa-map-marker-alt mr-2"></i>Dr. SNS College of Education,<br />Thudiyalur - Saravanampatti Road,<br />Vellakinar Post,<br />Coimbatore - 641029.</li>
-                            <li><a href="tel:+919629937861" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission: +91 96299 37861</a></li>
+                            <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission: +91 75300 93728</a></li>
                             <li><a href="tel:+917530093730" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Landline: +91 75300 93730</a></li>
                             <li><a href="mailto:info@snsacademy.org" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>info@snsacademy.org</a></li>
                             <li><a href="mailto:job@snsgroups.com" class="hover:text-white transition"><i class="fas fa-briefcase mr-2"></i>Career: job@snsgroups.com</a></li>
@@ -513,7 +513,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
             <i class="fab fa-instagram"></i>
         </a>
         <!-- WhatsApp Floating Icon -->
-        <a href="https://wa.me/919629937861" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+        <a href="https://wa.me/917530093728" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
             title="Chat with us on WhatsApp">
             <i class="fab fa-whatsapp"></i>
         </a>

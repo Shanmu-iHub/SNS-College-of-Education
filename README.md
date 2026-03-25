@@ -323,7 +323,7 @@ git push -f origin main
 
 **SNS Academy Contact:**
 - Phone: +91 422 439 0470
-- Mobile: +91 96299 37861
+- Mobile: +91 7530093728
 - WhatsApp: +91 95664 23456
 - Email: info@snsacademy.org
 - Address: Vellakinar, Coimbatore, Tamil Nadu

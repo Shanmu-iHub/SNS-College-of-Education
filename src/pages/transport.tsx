@@ -158,9 +158,9 @@ export const TransportPage = () => {
                 <h3 class="text-3xl font-bold mb-4">Not Sure If Your Area Is Covered?</h3>
                 <p class="text-xl mb-6">Contact our transport coordinator to check route availability for your specific location</p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="tel:+914224390470" class="bg-white text-orange-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
+                    <a href="tel:+917530093728" class="bg-white text-orange-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
                         <i class="fas fa-phone mr-2"></i>
-                        Call: +91 96299 37861
+                        Call: +91 75300 93728
                     </a>
                     <a href="/contact" class="bg-white/20 backdrop-blur-lg hover:bg-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
                         <i class="fas fa-envelope mr-2"></i>
@@ -314,9 +314,9 @@ export const TransportPage = () => {
                 Contact our transport coordinator for route details, availability, and fees
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:+914224390470" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
+                <a href="tel:+917530093728" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
                     <i class="fas fa-phone mr-2"></i>
-                    +91 96299 37861
+                    +91 75300 93728
                 </a>
                 <a href="mailto:info@snsacademy.org" class="bg-white/20 backdrop-blur-lg hover:bg-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
                     <i class="fas fa-envelope mr-2"></i>

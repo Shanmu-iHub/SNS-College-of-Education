@@ -571,48 +571,61 @@ export const AboutPage = () => {
 
             <div class="grid lg:grid-cols-3 gap-10">
                 <!-- Founder Chairman -->
-                <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-lg transition duration-300">
-                    <div class="flex items-center mb-6">
-                        <img src="/static/images/chairman.png" alt="Dr. S.N. Subbramanian" class="w-20 h-20 rounded-full object-cover mr-4 border-2 border-white shadow-sm">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900"><span class="text-[70%]">Deiva Thiru</span><br/><span class="text-[90%] font-[900]">Dr. S.N. Subbramanian</span></h3>
-                            <p class="text-orange-600 text-sm font-semibold mt-1">Founder Chairman</p>
+                <div class="bg-white rounded-3xl p-8 border border-gray-100 shadow-2xl hover:shadow-green-500/10 transition duration-500 group">
+                    <div class="flex items-center mb-8">
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-gradient-to-tr from-[#ff385c] to-orange-400 rounded-full blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
+                            <img src="/static/images/chairman.png" alt="Dr. S.N. Subbramanian" 
+                                 class="relative w-24 h-24 rounded-full object-cover border-4 border-white shadow-lg">
+                        </div>
+                        <div class="ml-6">
+                            <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1 block">DEIVA THIRU</span>
+                            <h3 class="text-2xl font-black text-gray-900 leading-tight">Dr. S.N. <br/>Subbramanian</h3>
+                            <p class="text-[#ff385c] font-extrabold text-sm uppercase tracking-wider mt-2">Founder Chairman</p>
                         </div>
                     </div>
-                    <div class="space-y-4">
-                        <p class="text-gray-600 text-sm leading-relaxed italic">
+                    <div class="relative">
+                        <p class="text-gray-600 text-lg leading-relaxed italic relative z-10">
                             "We believe that every child is a design thinker. Through our unique Design Thinking framework and 3P Culture, we prepare students not just for exams, but for life."
                         </p>
                     </div>
                 </div>
 
                 <!-- Correspondent -->
-                <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-lg transition duration-300">
-                    <div class="flex items-center mb-6">
-                        <img src="/static/images/correspondent.png" alt="Dr. S. Rajalakshmi" class="w-20 h-20 rounded-full object-cover mr-4 border-2 border-white shadow-sm">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900">Dr. S. Rajalakshmi</h3>
-                            <p class="text-orange-600 text-sm font-semibold mt-1">Chairman / Correspondent</p>
+                <div class="bg-white rounded-3xl p-8 border border-gray-100 shadow-2xl hover:shadow-green-500/10 transition duration-500 group">
+                    <div class="flex items-center mb-8">
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-gradient-to-tr from-[#ff385c] to-orange-400 rounded-full blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
+                            <img src="/static/images/correspondent.png" alt="Dr. S. Rajalakshmi" 
+                                 class="relative w-24 h-24 rounded-full object-cover border-4 border-white shadow-lg">
+                        </div>
+                        <div class="ml-6">
+                            <h3 class="text-2xl font-black text-gray-900 leading-tight">Dr. S. <br/>Rajalakshmi</h3>
+                            <p class="text-[#ff385c] font-extrabold text-sm uppercase tracking-wider mt-2">Chairman / Correspondent</p>
                         </div>
                     </div>
-                    <div class="space-y-4">
-                        <p class="text-gray-600 text-sm leading-relaxed italic">
+                    <div class="relative">
+                        <p class="text-gray-600 text-lg leading-relaxed italic relative z-10">
                             "We focus on holistic development through our 5 Pillars Mission. Our experienced faculty nurtures each child's unique potential, preparing them for global opportunities."
                         </p>
                     </div>
                 </div>
 
                 <!-- Technical Director -->
-                <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-lg transition duration-300">
-                    <div class="flex items-center mb-6">
-                        <img src="/static/images/Frame 609 (1) (1).png" alt="Nalin SNS" class="w-20 h-20 rounded-full object-cover mr-4 border-2 border-white shadow-sm">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900">Nalin SNS</h3>
-                            <p class="text-orange-600 text-sm font-semibold mt-1">Technical Director</p>
+                <div class="bg-white rounded-3xl p-8 border border-gray-100 shadow-2xl hover:shadow-green-500/10 transition duration-500 group">
+                    <div class="flex items-center mb-8">
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-gradient-to-tr from-[#ff385c] to-orange-400 rounded-full blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
+                            <img src="/static/images/Frame 609 (1) (1).png" alt="Nalin SNS" 
+                                 class="relative w-24 h-24 rounded-full object-cover border-4 border-white shadow-lg">
+                        </div>
+                        <div class="ml-6">
+                            <h3 class="text-2xl font-black text-gray-900 leading-tight">Nalin SNS</h3>
+                            <p class="text-[#ff385c] font-extrabold text-sm uppercase tracking-wider mt-2">Technical Director</p>
                         </div>
                     </div>
-                    <div class="space-y-4">
-                        <p class="text-gray-600 text-sm leading-relaxed italic">
+                    <div class="relative">
+                        <p class="text-gray-600 text-lg leading-relaxed italic relative z-10">
                             "We aim to build <strong class='text-gray-900'>1000 AI startups in 10 years</strong>. SNS iHub serves as India's Y-Combinator, focused on SHAAARP industries and RADICAL technologies."
                         </p>
                     </div>
@@ -650,7 +663,7 @@ export const ContactPage = () => {
                             <i class="fas fa-phone text-3xl text-orange-600 mr-4"></i>
                             <div>
                                 <h3 class="font-bold text-xl mb-2">Phone</h3>
-                                <p class="text-gray-700">Admission: +91 96299 37861<br>Landline: +91 75300 93730</p>
+                                <p class="text-gray-700">Admission: +91 75300 93728<br>Landline: +91 75300 93730</p>
                             </div>
                         </div>
                         <div class="flex items-start">
