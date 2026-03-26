@@ -9,7 +9,7 @@ headerTemplate.innerHTML = `
         </div>
         
         <!-- Hanging Tag 2: Brochure -->
-        <a href="/brochure-viewer" class="bg-gradient-to-br from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white w-12 py-6 rounded-l-2xl shadow-2xl flex flex-col items-center gap-3 transition-colors relative">
+        <a href="/brochure-viewer/" class="bg-gradient-to-br from-red-600 to-[#be123c] hover:from-red-700 hover:to-[#9f1239] text-white w-12 py-6 rounded-l-2xl shadow-2xl flex flex-col items-center gap-3 transition-colors relative">
             <i class="fas fa-file-pdf text-[18px] drop-shadow-md"></i>
             <span class="font-extrabold text-[10px] uppercase tracking-widest text-center leading-none inline-block w-full"
                 style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.1em;">BROCHURE</span>
