@@ -181,21 +181,6 @@ export const MandatoryDisclosurePage = () => {
                             <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/FeeStructure/" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Annual Academic Calendar</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="/static/docs/academic-calendar-2025-2026.docx" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">3</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">List of College Management Committee (SMC)</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/SchoolManagementCommittee/" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">4</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">List of Parents Teachers Association (PTA) Members</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/ParentsTeachersAssociation/" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">5</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">Last Three-Year Result of Board Examination</td>
                             <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/Three-YearResult/" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>

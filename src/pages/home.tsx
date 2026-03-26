@@ -32,7 +32,7 @@ export const HomePage = () => {
                     </p>
 
                     <p class="text-sm lg:text-base mb-8 text-gray-200 leading-relaxed max-w-xl">
-                        Transform your child into a confident learner and global leader at Coimbatore's most progressive CBSE school.
+                        Transform your passion for teaching into a rewarding career at Coimbatore's most progressive College of Education.
                     </p>
                     
                     <div class="flex flex-col sm:flex-row gap-4 mb-10">
@@ -120,7 +120,7 @@ export const HomePage = () => {
             <div class="text-center mb-16">
                 <h2 class="text-4xl lg:text-5xl font-bold mb-6 text-orange-600">Why Parents Choose Dr. SNS College of Education</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                    We don't just teach subjects—we redesign common minds through design thinking, preparing your child for tomorrow's challenges.
+                    We don't just teach subjects—we redesign common minds through design thinking, preparing your students for tomorrow's challenges.
                 </p>
             </div>
             
@@ -132,7 +132,7 @@ export const HomePage = () => {
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">Design Thinking Education</h3>
                     <p class="text-gray-600 leading-relaxed">
-                        India's first school with <strong>GenAI-Powered Design Thinking Framework (Patented)</strong>. Built on <strong>Empathy</strong>, every child learns to solve problems creatively using AI-enhanced methodologies from an early age.
+                        India's first school with <strong>GenAI-Powered Design Thinking Framework (Patented)</strong>. Built on <strong>Empathy</strong>, every student learns to solve problems creatively using AI-enhanced methodologies.
                     </p>
                 </div>
                 
@@ -143,7 +143,7 @@ export const HomePage = () => {
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">3P Culture Framework</h3>
                     <p class="text-gray-600 leading-relaxed">
-                        <strong>Purpose, Process, People</strong>—our holistic approach ensures every child develops academically, socially, emotionally, and ethically.
+                        <strong>Purpose, Process, People</strong>—our holistic approach ensures every student develops academically, socially, emotionally, and ethically.
                     </p>
                 </div>
                 
@@ -154,7 +154,7 @@ export const HomePage = () => {
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">10:1 Personalized Care</h3>
                     <p class="text-gray-600 leading-relaxed">
-                        Ultra-low student-teacher ratio ensures every child receives individual attention. 60% of our faculty have 10+ years of experience.
+                        Ultra-low student-teacher ratio ensures every student receives individual attention. 60% of our faculty have 10+ years of experience.
                     </p>
                 </div>
                 
@@ -288,7 +288,7 @@ export const HomePage = () => {
     <section class="py-20 bg-gradient-to-r from-orange-600 to-red-600 text-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-4xl lg:text-5xl font-bold mb-4">
-                Ready to Transform Your Child's Future?
+                Ready to Transform Your Future?
             </h2>
             <p class="text-xl opacity-90 mb-8">
                 Admissions open for Academic Year 2026-27. Limited seats available.

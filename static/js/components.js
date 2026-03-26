@@ -1,14 +1,20 @@
 const headerTemplate = document.createElement('template');
 headerTemplate.innerHTML = `
-<!-- Hanging Tag 1: NCTE Recognized -->
-    <div class="fixed top-[22%] right-0 z-50 swing">
-        <div class="bg-gradient-to-br from-green-600 to-emerald-600 text-white px-4 py-6 rounded-l-2xl shadow-2xl">
-            <span class="font-extrabold text-[10px] uppercase tracking-widest text-center"
-                style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.1em;">NCTE Recognized</span>
+    <!-- Floating Side Tags -->
+    <div class="fixed top-[25%] right-0 z-50 flex flex-col gap-1 swing">
+        <!-- Hanging Tag 1: NCTE Recognized -->
+        <div class="bg-gradient-to-br from-green-600 to-emerald-600 text-white w-12 py-6 rounded-l-2xl shadow-2xl flex justify-center items-center relative">
+            <span class="font-extrabold text-[10px] uppercase tracking-widest text-center leading-none inline-block w-full"
+                style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.1em;">NCTE RECOGNIZED</span>
         </div>
+        
+        <!-- Hanging Tag 2: Brochure -->
+        <a href="/brochure-viewer" class="bg-gradient-to-br from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white w-12 py-6 rounded-l-2xl shadow-2xl flex flex-col items-center gap-3 transition-colors relative">
+            <i class="fas fa-file-pdf text-[18px] drop-shadow-md"></i>
+            <span class="font-extrabold text-[10px] uppercase tracking-widest text-center leading-none inline-block w-full"
+                style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.1em;">BROCHURE</span>
+        </a>
     </div>
-
-
 
     <!-- Mobile Bottom Navigation -->
     <div class="fixed bottom-0 left-0 w-full bg-white shadow-[0_-4px_10px_rgba(0,0,0,0.1)] z-50 lg:hidden rounded-t-2xl">
@@ -115,6 +121,7 @@ headerTemplate.innerHTML = `
                             <a href="/contact" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Contact Us</a>
                             <a href="/mandatory-disclosure"
                                 class="block px-4 py-2 hover:bg-green-50 text-gray-700">Mandatory Disclosure</a>
+                            <a href="/brochure" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Brochure</a>
                         </div>
                     </div>
 
@@ -200,6 +207,7 @@ headerTemplate.innerHTML = `
                         <a href="/contact" class="block text-gray-600 hover:text-[#009846] py-1">Contact Us</a>
                         <a href="/mandatory-disclosure" class="block text-gray-600 hover:text-[#009846] py-1">Mandatory
                             Disclosure</a>
+                        <a href="/brochure" class="block text-gray-600 hover:text-[#009846] py-1">Brochure</a>
                     </div>
                 </div>
 
@@ -244,6 +252,7 @@ footerTemplate.innerHTML = `
                         <li><a href="/success-stories" class="hover:text-white transition">Success Stories</a></li>
                         <li><a href="/transport" class="hover:text-white transition">Transport</a></li>
                         <li><a href="/innovation" class="hover:text-white transition">Innovation Hub</a></li>
+                        <li><a href="/brochure" class="hover:text-white transition">Download Brochure</a></li>
 
                         <li><a href="/admissions" class="hover:text-white transition">Admissions</a></li>
                         <li><a href="/contact" class="hover:text-white transition">Contact</a></li>

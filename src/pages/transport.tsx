@@ -5,7 +5,7 @@ export const TransportPage = () => {
     return `
     ${PageHeader(
         'School Transport Services',
-        'Safe, comfortable, and punctual transportation for your child',
+        'Safe, comfortable, and punctual transportation for your students',
         '/static/images/SNS_BUS.jpg',
         'Transport'
     )}
@@ -235,7 +235,7 @@ export const TransportPage = () => {
                         <li class="flex items-start">
                             <i class="fas fa-user-check text-blue-600 mt-1 mr-3"></i>
                             <div>
-                                <strong>Pick-up (Nursery-VII):</strong> Parents must receive child at bus stop
+                                <strong>Pick-up (Nursery-VII):</strong> Parents must receive students at bus stop
                             </div>
                         </li>
                         <li class="flex items-start">

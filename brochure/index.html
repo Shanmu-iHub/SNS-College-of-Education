@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Brochure - SNS College of Education</title>
+    
+    <!-- Cache Control -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            300: '#86efac',
+                            400: '#4ade80',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                            DEFAULT: '#16a34a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 antialiased overflow-x-hidden">
+    <!-- Header -->
+    <app-header></app-header>
+
+    <!-- Hero Section -->
+    <div class="relative bg-gray-900 py-24 sm:py-32">
+        <div class="absolute inset-0 overflow-hidden">
+            <img src="/static/images/hero.png" alt="Digital Brochure" class="w-full h-full object-cover opacity-30 object-center">
+            <div class="absolute inset-0 bg-gray-900/60 mix-blend-multiply"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+            <nav class="flex justify-center mb-4" aria-label="Breadcrumb">
+                <ol class="flex items-center space-x-2 text-sm text-gray-300">
+                    <li><a href="/" class="hover:text-white transition">Home</a></li>
+                    <li><i class="fas fa-chevron-right text-xs mx-2"></i></li>
+                    <li class="font-medium text-white">Brochure</li>
+                </ol>
+            </nav>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6 tracking-tight">Digital Brochure</h1>
+            <p class="text-xl max-w-2xl mx-auto text-gray-200">
+                Download our complete prospectus and learn more about SNS College of Education.
+            </p>
+        </div>
+    </div>
+
+    <!-- Brochure Content -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-[2rem] p-12 text-center shadow-xl max-w-3xl mx-auto border border-gray-100 relative z-10 -mt-[120px]">
+                <i class="fas fa-file-pdf text-[5rem] text-green-600 mb-6 drop-shadow-sm"></i>
+                <h2 class="text-3xl sm:text-4xl font-extrabold mb-4 text-gray-900">SNS College of Education Prospectus</h2>
+                <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+                    Comprehensive guide with complete information about our B.Ed & M.Ed programs, facilities, admission process, and fees structure.
+                </p>
+                
+                <div class="flex justify-center mb-8">
+                    <a href="/brochure-viewer/" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3.5 rounded-xl font-bold text-lg transition-all hover:scale-105 shadow-md shadow-green-500/20 inline-flex items-center justify-center">
+                        <i class="fas fa-download mr-3"></i>
+                        Download Brochure
+                    </a>
+                </div>
+                
+                <p class="text-sm text-gray-500">
+                    For printed copies, contact us at <a href="tel:+919842232680" class="text-blue-500 hover:underline font-medium">+91 98422 32680</a>
+                </p>
+            </div>
+            
+            <div class="mt-20 grid grid-cols-1 md:grid-cols-3 gap-12 sm:gap-8">
+                <div class="text-center group">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-purple-200 transition-colors">
+                        <i class="fas fa-graduation-cap text-3xl text-purple-600"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2 text-gray-900">Academic Programs</h3>
+                    <p class="text-sm text-gray-600">B.Ed & M.Ed curriculum details</p>
+                </div>
+                
+                <div class="text-center group">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 transition-colors">
+                        <i class="fas fa-building text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2 text-gray-900">Facilities Tour</h3>
+                    <p class="text-sm text-gray-600">Complete infrastructure overview</p>
+                </div>
+                
+                <div class="text-center group">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-green-200 transition-colors">
+                        <i class="fas fa-rupee-sign text-3xl text-green-600"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2 text-gray-900">Fee Structure</h3>
+                    <p class="text-sm text-gray-600">Transparent pricing and payment options</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <app-footer></app-footer>
+    <script src="/static/js/components.js"></script>
+</body>
+</html>
