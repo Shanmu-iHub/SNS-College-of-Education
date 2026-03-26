@@ -19,14 +19,14 @@ export const GalleryPage = () => {
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
                 <div class="bg-white rounded-2xl overflow-hidden shadow-xl card-hover">
                     <div class="h-64 relative overflow-hidden">
-                        <img src="/static/images/pre-primary.png" alt="Little Graduates" class="w-full h-full object-cover">
+                        <img src="/static/images/pre-primary.png" alt="Graduates" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                         <div class="absolute bottom-4 left-4 text-white">
                             <i class="fas fa-graduation-cap text-3xl mb-2"></i>
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2">Little Graduates</h3>
+                        <h3 class="text-2xl font-bold mb-2">Graduates</h3>
                         <p class="text-gray-600">Celebrating achievements and milestones of our youngest learners</p>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ export const GalleryPage = () => {
     <!-- School Blocks -->
     <section class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-4">School Campus</h2>
+            <h2 class="text-4xl font-bold text-center mb-4">College Campus</h2>
             <p class="text-center text-xl text-gray-600 mb-12">Wi-Fi enabled campus with smart classrooms and modern facilities</p>
             
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -82,7 +82,7 @@ export const GalleryPage = () => {
                         <i class="fas fa-school text-4xl text-purple-600"></i>
                     </div>
                     <h3 class="text-2xl font-bold text-center mb-4">B Block</h3>
-                    <p class="text-gray-700 text-center">Secondary education wing with advanced facilities</p>
+                    <p class="text-gray-700 text-center">Advanced learning wing with modern facilities</p>
                 </div>
                 
                 <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 shadow-lg">
@@ -90,7 +90,7 @@ export const GalleryPage = () => {
                         <i class="fas fa-landmark text-4xl text-green-600"></i>
                     </div>
                     <h3 class="text-2xl font-bold text-center mb-4">C Block</h3>
-                    <p class="text-gray-700 text-center">Senior secondary and administrative block</p>
+                    <p class="text-gray-700 text-center">Administrative and Faculty block</p>
                 </div>
             </div>
 
@@ -104,12 +104,12 @@ export const GalleryPage = () => {
                     <h4 class="font-bold">Smart Classrooms</h4>
                 </div>
                 <div class="bg-white rounded-xl p-6 shadow-md text-center">
-                    <i class="fas fa-baby text-4xl text-pink-600 mb-3"></i>
-                    <h4 class="font-bold">Pre-KG</h4>
+                    <i class="fas fa-book text-4xl text-pink-600 mb-3"></i>
+                    <h4 class="font-bold">Library</h4>
                 </div>
                 <div class="bg-white rounded-xl p-6 shadow-md text-center">
-                    <i class="fas fa-child text-4xl text-purple-600 mb-3"></i>
-                    <h4 class="font-bold">LKG & UKG</h4>
+                    <i class="fas fa-flask text-4xl text-purple-600 mb-3"></i>
+                    <h4 class="font-bold">Laboratories</h4>
                 </div>
             </div>
         </div>

@@ -13,10 +13,10 @@ export const MandatoryDisclosurePage = () => {
     <section class="py-12 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold mb-8 text-gray-900">A. General Information</h2>
-            
+
             <div class="overflow-x-auto">
                 <table class="w-full border-collapse border border-gray-300">
-                    <thead class="bg-orange-100">
+                    <thead class="bg-green-100">
                         <tr>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">SL NO.</th>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">INFORMATION</th>
@@ -26,43 +26,63 @@ export const MandatoryDisclosurePage = () => {
                     <tbody>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">1</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">NAME OF THE SCHOOL</td>
-                            <td class="border border-gray-300 px-4 py-3">Dr. SNS College of Education</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">College Name</td>
+                            <td class="border border-gray-300 px-4 py-3">Dr. S. N. S. College of Education</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">2</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">AFFILIATION NO.</td>
-                            <td class="border border-gray-300 px-4 py-3">1930610</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">College Code</td>
+                            <td class="border border-gray-300 px-4 py-3">10309</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">3</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">SCHOOL CODE</td>
-                            <td class="border border-gray-300 px-4 py-3">55513</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Complete Address with PIN Code</td>
+                            <td class="border border-gray-300 px-4 py-3">Dr. S. N. S. College of Education<br>487, Thudiyalur – Saravanampatti Road,<br>Chinnavedampatti (Post),<br>Coimbatore – 641049.</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">4</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">COMPLETE ADDRESS WITH PIN CODE</td>
-                            <td class="border border-gray-300 px-4 py-3">538, Thudiyalur-Saravanampatti Road, Vellakinar Post, Coimbatore - 641029, Tamil Nadu</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Year of Establishment</td>
+                            <td class="border border-gray-300 px-4 py-3">2007</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">5</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">PRINCIPAL NAME</td>
-                            <td class="border border-gray-300 px-4 py-3">Sri Vidhya Prince</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Recognized by</td>
+                            <td class="border border-gray-300 px-4 py-3">NCTE</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">6</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">PRINCIPAL QUALIFICATION</td>
-                            <td class="border border-gray-300 px-4 py-3">M.Sc, M.Ed, M.Phil</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Affiliating University</td>
+                            <td class="border border-gray-300 px-4 py-3">Tamil Nadu Teachers Education University, Chennai</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">7</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">SCHOOL EMAIL ID</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="mailto:office@snsacademy.org" class="text-orange-600 hover:underline">office@snsacademy.org</a></td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">NAAC Accreditation</td>
+                            <td class="border border-gray-300 px-4 py-3">‘A’ Grade</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">8</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">CONTACT DETAILS</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="tel:+917530093728" class="text-orange-600 hover:underline">+91 75300 93728</a></td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Status Obtained</td>
+                            <td class="border border-gray-300 px-4 py-3">2(f)</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">9</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Principal Name</td>
+                            <td class="border border-gray-300 px-4 py-3">Dr. A. Mary Noya Leena</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">10</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Principal Qualification</td>
+                            <td class="border border-gray-300 px-4 py-3">M.Sc., M.Ed., Ph.D.</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">11</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">College Email ID</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="mailto:office@drsnsce.edu.in" class="text-green-600 hover:underline">office@drsnsce.edu.in</a></td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">12</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Contact Details</td>
+                            <td class="border border-gray-300 px-4 py-3">9842232680, <a href="tel:+917530093728" class="text-green-600 hover:underline">+91-7530093728</a>, <a href="tel:+917530093729" class="text-green-600 hover:underline">7530093729</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -73,64 +93,69 @@ export const MandatoryDisclosurePage = () => {
     <!-- B: Documents and Information -->
     <section class="py-12 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-8 text-gray-900">B. Documents and Information</h2>
+            <h2 class="text-3xl font-bold mb-8 text-gray-900">B. Mandatory Documents for B.Ed Programme Approval & Compliance</h2>
             
             <div class="overflow-x-auto">
                 <table class="w-full border-collapse border border-gray-300 bg-white">
-                    <thead class="bg-orange-100">
+                    <thead class="bg-green-100">
                         <tr>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">SL NO.</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">DOCUMENTS/INFORMATION</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">LINKS</th>
+                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">LIST OF DOCUMENTS</th>
+                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">LINK</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">1</td>
-                            <td class="border border-gray-300 px-4 py-3">Copies of Affiliation/Upgradation Letter and Recent Extension of Affiliation</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/affiliationUpgradation/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3">First Order of Recognition</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://drive.google.com/file/d/1UYKV3_MaaApUcQhk4csjgGseDAHe07dT/view?usp=drive_link" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">2</td>
-                            <td class="border border-gray-300 px-4 py-3">Copies of Trust Registration/Renewal Certificate</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/TRUST_DEED/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3">First Affiliation Order – Bharathiar University</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://drive.google.com/file/d/1f6bgjl99TrBFKVljgdNXuhVESELUuci/view?usp=drive_link" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">3</td>
-                            <td class="border border-gray-300 px-4 py-3">Copy of No Objection Certificate (NOC) Issued by State Govt.</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/noc/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3">Revised Recognition Order (As per NCTE 2014 Norms)</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://drive.google.com/file/d/1UWwHKKVhgruKPeTjmcRZmKfXJqSjG7E7/view?usp=drive_link" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">4</td>
-                            <td class="border border-gray-300 px-4 py-3">Copies of Recognition Certificate Under RTE Act, 2009</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/recognitionCertificate/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3">First Affiliation Order – Tamil Nadu Teachers Education University</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://drive.google.com/file/d/1wyFDBfziJXWSJgffBRWGJsvP5le2UwMg/view?usp=drive_link" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">5</td>
-                            <td class="border border-gray-300 px-4 py-3">Copy of Valid Building Safety Certificate</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/Building%20Safety%20certificate.pdf" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3">Continuous Provisional Affiliation Orders – TNTEU</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://drive.google.com/file/d/1t7JOeTRt1eXKg1q8jcn1i54Y4bvQusWi/view?usp=drive_link" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">6</td>
-                            <td class="border border-gray-300 px-4 py-3">Copy of Valid Fire Safety Certificate</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/FireSafetyCertificate/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3">Recognition under Section 2(f) of UGC Act, 1956</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://drive.google.com/file/d/144snREG__FrVAS93Z2HeITonmxEqVzi/view?usp=drive_link" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">7</td>
-                            <td class="border border-gray-300 px-4 py-3">Copy of DEO Certificate / Self Certificate</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/SelfCertification/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3">Accreditation Certificate</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://drive.google.com/file/d/1xNblZBadG55qqoV7s77zmZ6_HEaoT4m9/view?usp=drive_link" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">8</td>
-                            <td class="border border-gray-300 px-4 py-3">Copies of Valid Water, Health and Sanitation Certificates</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/WaterHealthSanitationCertificates/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3">Fire Safety Certificate / NOC</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://drive.google.com/file/d/1uuP8uQdgADaKtFi1hoypgLU0LuCz1GWv/view?usp=drive_link" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">9</td>
+                            <td class="border border-gray-300 px-4 py-3">Sanitary Certificate</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://drive.google.com/file/d/155FxaPJpgu6aham2p7gcyTHi7GBkP56/view?usp=drive_link" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             
-            <div class="mt-6 bg-yellow-50 border-l-4 border-yellow-500 p-4">
-                <p class="text-sm text-gray-700"><strong>NOTE:</strong> The school uploads self-attested copies of above listed documents by Chairman/Manager/Secretary and Principal. If it is noticed at a later stage that uploaded documents are not genuine, the school shall be liable for action as per norms.</p>
+            <div class="mt-6 bg-green-50 border-l-4 border-green-500 p-4">
+                <p class="text-sm text-gray-700"><strong>NOTE:</strong> The college uploads self-attested copies of above listed documents by Chairman/Manager/Secretary and Principal. If it is noticed at a later stage that uploaded documents are not genuine, the college shall be liable for action as per norms.</p>
             </div>
         </div>
     </section>
@@ -139,10 +164,10 @@ export const MandatoryDisclosurePage = () => {
     <section class="py-12 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold mb-8 text-gray-900">C. Result and Academics</h2>
-            
+
             <div class="overflow-x-auto mb-8">
                 <table class="w-full border-collapse border border-gray-300">
-                    <thead class="bg-orange-100">
+                    <thead class="bg-green-100">
                         <tr>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">SL NO.</th>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">DOCUMENTS/INFORMATION</th>
@@ -152,95 +177,133 @@ export const MandatoryDisclosurePage = () => {
                     <tbody>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">1</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Fee Structure of the School</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/FeeStructure/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Fee Structure of the College</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/FeeStructure/" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">2</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">Annual Academic Calendar</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/AcademicCalender/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="/static/docs/academic-calendar-2025-2026.docx" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">3</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">List of School Management Committee (SMC)</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/SchoolManagementCommittee/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">List of College Management Committee (SMC)</td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/SchoolManagementCommittee/" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">4</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">List of Parents Teachers Association (PTA) Members</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/ParentsTeachersAssociation/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/ParentsTeachersAssociation/" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">5</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">Last Three-Year Result of Board Examination</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/Three-YearResult/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/Three-YearResult/" target="_blank" class="text-green-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
 
-            <h3 class="text-2xl font-bold mb-6 text-gray-900">CBSE Board Results - Class X</h3>
+            <h3 class="text-2xl font-bold mb-6 text-gray-900">University Result</h3>
+            <p class="text-gray-700 mb-6">Result during the last three years with % of overall Pass outs</p>
+            
             <div class="overflow-x-auto mb-8">
                 <table class="w-full border-collapse border border-gray-300">
                     <thead class="bg-green-100">
                         <tr>
+                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Academic Year</th>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">Year</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Registered Students</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Students Passed</th>
+                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Semester</th>
+                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Total No of students Appeared</th>
+                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Total no of students passed</th>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">Pass Percentage</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2021-2022</td>
-                            <td class="border border-gray-300 px-4 py-3">30</td>
-                            <td class="border border-gray-300 px-4 py-3">30</td>
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">2022-2023</td>
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">I</td>
+                            <td class="border border-gray-300 px-4 py-3">I</td>
+                            <td class="border border-gray-300 px-4 py-3">100</td>
+                            <td class="border border-gray-300 px-4 py-3">100</td>
                             <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2022-2023</td>
-                            <td class="border border-gray-300 px-4 py-3">40</td>
-                            <td class="border border-gray-300 px-4 py-3">40</td>
+                            <td class="border border-gray-300 px-4 py-3">II</td>
+                            <td class="border border-gray-300 px-4 py-3">100</td>
+                            <td class="border border-gray-300 px-4 py-3">100</td>
                             <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2023-2024</td>
-                            <td class="border border-gray-300 px-4 py-3">53</td>
-                            <td class="border border-gray-300 px-4 py-3">53</td>
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">2022-2023</td>
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">II</td>
+                            <td class="border border-gray-300 px-4 py-3">III</td>
+                            <td class="border border-gray-300 px-4 py-3">95</td>
+                            <td class="border border-gray-300 px-4 py-3">95</td>
                             <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
                         </tr>
-                    </tbody>
-                </table>
-            </div>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">IV</td>
+                            <td class="border border-gray-300 px-4 py-3">95</td>
+                            <td class="border border-gray-300 px-4 py-3">95</td>
+                            <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
+                        </tr>
+                        
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">2023-2024</td>
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">I</td>
+                            <td class="border border-gray-300 px-4 py-3">I</td>
+                            <td class="border border-gray-300 px-4 py-3">70</td>
+                            <td class="border border-gray-300 px-4 py-3">70</td>
+                            <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">II</td>
+                            <td class="border border-gray-300 px-4 py-3">70</td>
+                            <td class="border border-gray-300 px-4 py-3">70</td>
+                            <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">2023-2024</td>
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">II</td>
+                            <td class="border border-gray-300 px-4 py-3">III</td>
+                            <td class="border border-gray-300 px-4 py-3">99</td>
+                            <td class="border border-gray-300 px-4 py-3">99</td>
+                            <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">IV</td>
+                            <td class="border border-gray-300 px-4 py-3">99</td>
+                            <td class="border border-gray-300 px-4 py-3">99</td>
+                            <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
+                        </tr>
 
-            <h3 class="text-2xl font-bold mb-6 text-gray-900">CBSE Board Results - Class XII</h3>
-            <div class="overflow-x-auto">
-                <table class="w-full border-collapse border border-gray-300">
-                    <thead class="bg-blue-100">
-                        <tr>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Year</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Registered Students</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Students Passed</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Pass Percentage</th>
-                        </tr>
-                    </thead>
-                    <tbody>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2021-2022</td>
-                            <td class="border border-gray-300 px-4 py-3">42</td>
-                            <td class="border border-gray-300 px-4 py-3">42</td>
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">2024-2025</td>
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">I</td>
+                            <td class="border border-gray-300 px-4 py-3">I</td>
+                            <td class="border border-gray-300 px-4 py-3">78</td>
+                            <td class="border border-gray-300 px-4 py-3">78</td>
                             <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2022-2023</td>
-                            <td class="border border-gray-300 px-4 py-3">49</td>
-                            <td class="border border-gray-300 px-4 py-3">49</td>
+                            <td class="border border-gray-300 px-4 py-3">II</td>
+                            <td class="border border-gray-300 px-4 py-3">78</td>
+                            <td class="border border-gray-300 px-4 py-3">78</td>
                             <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2023-2024</td>
-                            <td class="border border-gray-300 px-4 py-3">37</td>
-                            <td class="border border-gray-300 px-4 py-3">37</td>
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">2024-2025</td>
+                            <td class="border border-gray-300 px-4 py-3" rowspan="2">II</td>
+                            <td class="border border-gray-300 px-4 py-3">III</td>
+                            <td class="border border-gray-300 px-4 py-3">70</td>
+                            <td class="border border-gray-300 px-4 py-3">70</td>
+                            <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">IV</td>
+                            <td class="border border-gray-300 px-4 py-3">69</td>
+                            <td class="border border-gray-300 px-4 py-3">69</td>
                             <td class="border border-gray-300 px-4 py-3 font-bold text-green-600">100%</td>
                         </tr>
                     </tbody>
@@ -256,7 +319,7 @@ export const MandatoryDisclosurePage = () => {
             
             <div class="overflow-x-auto">
                 <table class="w-full border-collapse border border-gray-300 bg-white">
-                    <thead class="bg-orange-100">
+                    <thead class="bg-green-100">
                         <tr>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">SL NO.</th>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">INFORMATION</th>
@@ -267,34 +330,17 @@ export const MandatoryDisclosurePage = () => {
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">1</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">Principal</td>
-                            <td class="border border-gray-300 px-4 py-3">Sri Vidhya Prince</td>
+                            <td class="border border-gray-300 px-4 py-3">Dr. A. Mary Noya Leena</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">2</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Total Number of Teachers</td>
-                            <td class="border border-gray-300 px-4 py-3">
-                                <div class="space-y-1">
-                                    <div><strong>Total:</strong> 54</div>
-                                    <div>PGT (Post Graduate Teachers): 14</div>
-                                    <div>TGT (Trained Graduate Teachers): 18</div>
-                                    <div>PRT (Primary Teachers): 22</div>
-                                </div>
-                            </td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Total Number of Teaching Staff</td>
+                            <td class="border border-gray-300 px-4 py-3">15</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">3</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Teachers Section Ratio</td>
-                            <td class="border border-gray-300 px-4 py-3">1:1.5</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">4</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Details of Special Educator</td>
-                            <td class="border border-gray-300 px-4 py-3">1</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">5</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Details of Counsellor and Wellness Teacher</td>
-                            <td class="border border-gray-300 px-4 py-3">1</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Student–Staff Ratio</td>
+                            <td class="border border-gray-300 px-4 py-3">13 : 1</td>
                         </tr>
                     </tbody>
                 </table>
@@ -302,78 +348,87 @@ export const MandatoryDisclosurePage = () => {
         </div>
     </section>
 
-    <!-- E: School Infrastructure -->
+    <!-- E: College Infrastructure -->
     <section class="py-12 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-8 text-gray-900">E. School Infrastructure</h2>
+            <h2 class="text-3xl font-bold mb-8 text-gray-900">E. College Infrastructure</h2>
             
             <div class="overflow-x-auto">
                 <table class="w-full border-collapse border border-gray-300">
-                    <thead class="bg-orange-100">
+                    <thead class="bg-green-100">
                         <tr>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">SL NO.</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">INFORMATION</th>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">DETAILS</th>
+                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">AVAILABILITY</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">1</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Total Campus Area (in sq mtr)</td>
-                            <td class="border border-gray-300 px-4 py-3">9,176 sq mtr</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Classrooms</td>
+                            <td class="border border-gray-300 px-4 py-3">4 Nos</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">2</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">No. and Size of Classrooms (in sq mtr)</td>
-                            <td class="border border-gray-300 px-4 py-3">36 Classrooms | 589 sq mtr</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Seminar Hall</td>
+                            <td class="border border-gray-300 px-4 py-3"><span class="text-green-600 font-bold">Available</span></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">3</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">No. and Size of Laboratories including Computer Labs (in sq mtr)</td>
-                            <td class="border border-gray-300 px-4 py-3">5 Laboratories | 669 sq mtr</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Language Laboratory</td>
+                            <td class="border border-gray-300 px-4 py-3"><span class="text-green-600 font-bold">Available</span></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">4</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Internet Facility</td>
-                            <td class="border border-gray-300 px-4 py-3"><span class="text-green-600 font-bold">YES</span></td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Computer Laboratory</td>
+                            <td class="border border-gray-300 px-4 py-3"><span class="text-green-600 font-bold">Available</span></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">5</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">No. of Girls Toilets</td>
-                            <td class="border border-gray-300 px-4 py-3">53</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Educational Technology Lab</td>
+                            <td class="border border-gray-300 px-4 py-3"><span class="text-green-600 font-bold">Available</span></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">6</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">No. of Boys Toilets</td>
-                            <td class="border border-gray-300 px-4 py-3">36</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Biological Science Laboratory</td>
+                            <td class="border border-gray-300 px-4 py-3"><span class="text-green-600 font-bold">Available</span></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">7</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">YouTube Video of School Inspection</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://youtu.be/rrJq-eqWxSc" target="_blank" class="text-orange-600 hover:underline font-semibold">Watch Video</a></td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Mathematics Laboratory</td>
+                            <td class="border border-gray-300 px-4 py-3"><span class="text-green-600 font-bold">Available</span></td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">8</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Psychology Laboratory</td>
+                            <td class="border border-gray-300 px-4 py-3"><span class="text-green-600 font-bold">Available</span></td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">9</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Physical Science Laboratory</td>
+                            <td class="border border-gray-300 px-4 py-3"><span class="text-green-600 font-bold">Available</span></td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">10</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold">Play Ground</td>
+                            <td class="border border-gray-300 px-4 py-3"><span class="text-green-600 font-bold">Available</span></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-        </div>
-    </section>
 
-    <!-- F: SARAS -->
-    <section class="py-12 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-8 text-gray-900">F. SARAS</h2>
-            
-            <div class="bg-white rounded-xl shadow-lg p-8">
-                <div class="flex items-center justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Complete Mandatory Disclosure PDF</h3>
-                        <p class="text-gray-600">Download the complete mandatory disclosure document as per CBSE guidelines</p>
-                    </div>
-                    <a href="https://snsacademy.org/MandatoryDisclosurePDF/" target="_blank" class="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg font-bold transition inline-flex items-center">
-                        <i class="fas fa-download mr-2"></i>
-                        Download PDF
-                    </a>
-                </div>
+            <!-- Institutional Inspection Video -->
+            <div class="mt-8 overflow-hidden rounded-lg border border-gray-300 bg-white">
+                <table class="w-full border-collapse">
+                    <tbody>
+                        <tr class="hover:bg-gray-50 flex flex-col sm:flex-row divide-y sm:divide-y-0 sm:divide-x divide-gray-200">
+                            <td class="flex-1 px-6 py-4 font-bold text-[#1f2937] flex items-center">YouTube Video of Institutional Inspection</td>
+                            <td class="px-6 py-4 flex items-center justify-center sm:w-64">
+                                <a href="https://www.youtube.com/c/snsinstitutions" target="_blank" class="text-green-600 hover:underline font-bold">Watch Video</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
