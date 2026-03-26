@@ -8,11 +8,21 @@ headerTemplate.innerHTML = `
                 style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.1em;">NCTE RECOGNIZED</span>
         </div>
         
+        <!-- Hanging Tag 1: NCTE Recognized -->
+        <div class="bg-gradient-to-br from-green-600 to-emerald-600 text-white w-14 py-10 rounded-l-2xl shadow-2xl flex flex-col items-center gap-4 hover:-translate-x-2 transition-all duration-300 cursor-pointer group relative">
+            <i class="fas fa-award text-xl drop-shadow-md"></i>
+            <span class="font-bold text-[11px] uppercase tracking-[0.2em] text-center leading-none inline-block"
+                style="writing-mode: vertical-rl; text-orientation: upright;">NCTE RECOGNIZED</span>
+        </div>
+        
         <!-- Hanging Tag 2: Brochure -->
-        <a href="/brochure-viewer/" class="bg-gradient-to-br from-red-600 to-[#be123c] hover:from-red-700 hover:to-[#9f1239] text-white w-12 py-6 rounded-l-2xl shadow-2xl flex flex-col items-center gap-3 transition-colors relative">
-            <i class="fas fa-file-pdf text-[18px] drop-shadow-md"></i>
-            <span class="font-extrabold text-[10px] uppercase tracking-widest text-center leading-none inline-block w-full"
-                style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.1em;">BROCHURE</span>
+        <a href="/brochure-viewer/" class="bg-gradient-to-br from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white w-14 py-10 rounded-l-2xl shadow-2xl flex flex-col items-center gap-4 hover:-translate-x-2 transition-all duration-300 relative group">
+            <div class="flex flex-col items-center gap-1 mb-1">
+                <i class="fas fa-file-pdf text-xl drop-shadow-md"></i>
+                <span class="text-[8px] font-black opacity-90">PDF</span>
+            </div>
+            <span class="font-bold text-[11px] uppercase tracking-[0.2em] text-center leading-none inline-block"
+                style="writing-mode: vertical-rl; text-orientation: upright;">BROCHURE</span>
         </a>
     </div>
 
