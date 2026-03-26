@@ -1,22 +1,16 @@
 const headerTemplate = document.createElement('template');
 headerTemplate.innerHTML = `
     <!-- Floating Side Tags -->
-    <div class="fixed top-[25%] right-0 z-50 flex flex-col gap-1 swing">
+    <div class="fixed top-[25%] right-0 z-50 flex flex-col gap-6 items-end">
         <!-- Hanging Tag 1: NCTE Recognized -->
-        <div class="bg-gradient-to-br from-green-600 to-emerald-600 text-white w-12 py-6 rounded-l-2xl shadow-2xl flex justify-center items-center relative">
-            <span class="font-extrabold text-[10px] uppercase tracking-widest text-center leading-none inline-block w-full"
-                style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.1em;">NCTE RECOGNIZED</span>
-        </div>
-        
-        <!-- Hanging Tag 1: NCTE Recognized -->
-        <div class="bg-gradient-to-br from-green-600 to-emerald-600 text-white w-14 py-10 rounded-l-2xl shadow-2xl flex flex-col items-center gap-4 hover:-translate-x-2 transition-all duration-300 cursor-pointer group relative">
+        <div class="bg-gradient-to-br from-green-600 to-emerald-600 text-white w-14 py-7 rounded-l-2xl shadow-2xl flex flex-col items-center gap-4 hover:-translate-x-2 transition-all duration-300 cursor-pointer group relative anim-swing">
             <i class="fas fa-award text-xl drop-shadow-md"></i>
             <span class="font-bold text-[11px] uppercase tracking-[0.2em] text-center leading-none inline-block"
                 style="writing-mode: vertical-rl; text-orientation: upright;">NCTE RECOGNIZED</span>
         </div>
         
         <!-- Hanging Tag 2: Brochure -->
-        <a href="/brochure-viewer/" class="bg-gradient-to-br from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white w-14 py-10 rounded-l-2xl shadow-2xl flex flex-col items-center gap-4 hover:-translate-x-2 transition-all duration-300 relative group">
+        <a href="/brochure-viewer/" target="_blank" class="bg-gradient-to-br from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white w-14 py-10 rounded-l-2xl shadow-2xl flex flex-col items-center gap-4 hover:-translate-x-2 transition-all duration-300 relative group anim-swing-delayed">
             <div class="flex flex-col items-center gap-1 mb-1">
                 <i class="fas fa-file-pdf text-xl drop-shadow-md"></i>
                 <span class="text-[8px] font-black opacity-90">PDF</span>
@@ -25,6 +19,29 @@ headerTemplate.innerHTML = `
                 style="writing-mode: vertical-rl; text-orientation: upright;">BROCHURE</span>
         </a>
     </div>
+
+    <style>
+        @keyframes swing {
+            0% { transform: rotate(0deg); }
+            20% { transform: rotate(5deg); }
+            40% { transform: rotate(-5deg); }
+            60% { transform: rotate(3deg); }
+            80% { transform: rotate(-3deg); }
+            100% { transform: rotate(0deg); }
+        }
+        .anim-swing {
+            animation: swing 3s ease-in-out infinite;
+            transform-origin: top right;
+        }
+        .anim-swing-delayed {
+            animation: swing 3.5s ease-in-out infinite;
+            animation-delay: 0.5s;
+            transform-origin: top right;
+        }
+        .anim-swing:hover, .anim-swing-delayed:hover {
+            animation-play-state: paused;
+        }
+    </style>
 
     <!-- Mobile Bottom Navigation -->
     <div class="fixed bottom-0 left-0 w-full bg-white shadow-[0_-4px_10px_rgba(0,0,0,0.1)] z-50 lg:hidden rounded-t-2xl">
@@ -131,7 +148,6 @@ headerTemplate.innerHTML = `
                             <a href="/contact" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Contact Us</a>
                             <a href="/mandatory-disclosure"
                                 class="block px-4 py-2 hover:bg-green-50 text-gray-700">Mandatory Disclosure</a>
-                            <a href="/brochure" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Brochure</a>
                         </div>
                     </div>
 
@@ -265,6 +281,7 @@ footerTemplate.innerHTML = `
                         <li><a href="/brochure" class="hover:text-white transition">Download Brochure</a></li>
 
                         <li><a href="/admissions" class="hover:text-white transition">Admissions</a></li>
+                        <li><a href="/mandatory-disclosure" class="hover:text-white transition">Mandatory Disclosure</a></li>
                         <li><a href="/contact" class="hover:text-white transition">Contact</a></li>
                     </ul>
                 </div>
@@ -282,7 +299,6 @@ footerTemplate.innerHTML = `
                         <li><a href="/academics/b-ed/economics.html" class="hover:text-white transition">Pedagogy of Economics</a></li>
                         <li><a href="/academics/b-ed/commerce.html" class="hover:text-white transition">Pedagogy of Commerce</a></li>
                         <li><a href="/academics/b-ed/social-science.html" class="hover:text-white transition">Pedagogy of Social Science</a></li>
-                        <li><a href="/mandatory-disclosure" class="hover:text-white transition">Mandatory Disclosure</a></li>
                     </ul>
                 </div>
 
@@ -338,6 +354,62 @@ footerTemplate.innerHTML = `
         title="Chat with us on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
+
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 28px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .instagram-float {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            bottom: 95px;
+            right: 30px;
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            color: #FFF;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 28px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .whatsapp-float:hover, .instagram-float:hover {
+            transform: scale(1.1) translateY(-5px);
+            color: white;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 768px) {
+            .whatsapp-float, .instagram-float {
+                width: 45px;
+                height: 45px;
+                font-size: 22px;
+                right: 20px;
+            }
+            .whatsapp-float { bottom: 85px; } /* Above mobile nav */
+            .instagram-float { bottom: 145px; }
+        }
+    </style>
 `;
 
 class AppHeader extends HTMLElement {
