@@ -457,8 +457,11 @@ class AppHeader extends HTMLElement {
                 link.classList.remove('text-gray-700');
             });
         } else if (currentLink) {
-            currentLink.classList.add('text-[#009846]', 'font-bold');
-            currentLink.classList.remove('text-gray-700');
+            // Only apply active text color for links WITHOUT a background color (non-buttons)
+            if (!currentLink.classList.contains('bg-[#009846]')) {
+                currentLink.classList.add('text-[#009846]', 'font-bold');
+                currentLink.classList.remove('text-gray-700');
+            }
 
             // Highlight parent dropdown button
             const dropdown = currentLink.closest('.relative.group');
