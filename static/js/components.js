@@ -55,7 +55,7 @@ headerTemplate.innerHTML = `
                 <a href="/programs.html" target="_blank" class="flex flex-col items-center justify-center w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full shadow-lg text-white border-4 border-white hover:scale-105 transition-transform">
                     <i class="fas fa-graduation-cap text-2xl"></i>
                 </a>
-                <span class="absolute top-12 text-[10px] font-bold text-[#009846] mt-1 whitespace-nowrap">Programs</span>
+                <span class="absolute top-[4.25rem] text-[10px] font-bold text-[#009846] mt-1 whitespace-nowrap">Programs</span>
             </div>
 
             <a href="/about" class="flex flex-col items-center justify-center w-16 text-gray-500 hover:text-[#009846] transition pt-1">
@@ -74,14 +74,14 @@ headerTemplate.innerHTML = `
     <nav class="bg-white shadow-md sticky top-0 z-40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <a href="/" class="flex items-center space-x-3">
-                    <img src="/static/images/college_logo.jpeg" alt="Dr. SNS College of Education Logo" class="h-16 w-auto">
-                    <div>
-                        <h1 class="text-xl font-bold text-gray-900">Dr. SNS College of Education</h1>
+                <a href="/" class="flex items-center space-x-2 sm:space-x-3 shrink-0">
+                    <img src="/static/images/college_logo.jpeg" alt="Dr. SNS College of Education Logo" class="h-12 sm:h-16 w-auto">
+                    <div class="max-w-[150px] sm:max-w-none">
+                        <h1 class="text-sm sm:text-base md:text-xl font-bold text-gray-900 leading-tight">Dr. SNS College of Education</h1>
                     </div>
                 </a>
 
-                <div class="hidden md:flex items-center space-x-6">
+                <div class="hidden lg:flex items-center space-x-6">
                     <a href="/" class="text-gray-700 hover:text-[#009846] font-medium">Home</a>
 
                     <!-- Academics Dropdown -->
@@ -156,14 +156,14 @@ headerTemplate.innerHTML = `
                     </a>
                 </div>
 
-                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+                <button id="mobile-menu-btn" class="lg:hidden text-gray-700">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
             </div>
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t">
             <div class="px-4 py-4 space-y-3">
                 <a href="/" class="block text-gray-700 hover:text-[#009846] font-medium py-2">Home</a>
 
