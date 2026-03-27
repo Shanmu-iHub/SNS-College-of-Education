@@ -3,8 +3,7 @@ headerTemplate.innerHTML = `
     <!-- Floating Side Tags -->
     <div class="fixed top-[25%] right-0 z-50 flex flex-col gap-6 items-end">
         <!-- Hanging Tag 1: NCTE Recognized -->
-        <div class="bg-gradient-to-br from-green-600 to-emerald-600 text-white w-14 py-7 rounded-l-2xl shadow-2xl flex flex-col items-center gap-4 hover:-translate-x-2 transition-all duration-300 cursor-pointer group relative anim-swing">
-            <i class="fas fa-award text-xl drop-shadow-md"></i>
+        <div class="bg-gradient-to-br from-green-600 to-emerald-600 text-white w-14 py-4 rounded-l-2xl shadow-2xl flex flex-col items-center hover:-translate-x-2 transition-all duration-300 cursor-pointer group relative anim-swing">
             <span class="font-bold text-[11px] uppercase tracking-[0.2em] text-center leading-none inline-block"
                 style="writing-mode: vertical-rl; text-orientation: upright;">NCTE RECOGNIZED</span>
         </div>
