@@ -43,7 +43,7 @@ headerTemplate.innerHTML = `
     </style>
 
     <!-- Mobile Bottom Navigation -->
-    <div class="fixed bottom-0 left-0 w-full bg-white shadow-[0_-4px_10px_rgba(0,0,0,0.1)] z-50 lg:hidden rounded-t-2xl">
+    <div class="fixed bottom-0 left-0 w-full bg-white shadow-[0_-4px_10px_rgba(0,0,0,0.1)] z-50 md:hidden rounded-t-2xl">
         <div class="flex justify-around items-center h-16 relative px-2">
             <a href="/" class="flex flex-col items-center justify-center w-16 text-gray-500 hover:text-[#009846] transition">
                 <i class="fas fa-home text-xl mb-1"></i>
@@ -55,7 +55,7 @@ headerTemplate.innerHTML = `
                 <a href="/programs.html" target="_blank" class="flex flex-col items-center justify-center w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full shadow-lg text-white border-4 border-white hover:scale-105 transition-transform">
                     <i class="fas fa-graduation-cap text-2xl"></i>
                 </a>
-                <span class="absolute top-[4.25rem] text-[10px] font-bold text-[#009846] mt-1 whitespace-nowrap">Programs</span>
+                <span class="absolute top-[3.25rem] text-[10px] font-bold text-[#009846] mt-1 whitespace-nowrap">Programs</span>
             </div>
 
             <a href="/about" class="flex flex-col items-center justify-center w-16 text-gray-500 hover:text-[#009846] transition pt-1">
@@ -81,7 +81,7 @@ headerTemplate.innerHTML = `
                     </div>
                 </a>
 
-                <div class="hidden lg:flex items-center space-x-6">
+                <div class="hidden md:flex items-center space-x-6">
                     <a href="/" class="text-gray-700 hover:text-[#009846] font-medium">Home</a>
 
                     <!-- Academics Dropdown -->
@@ -156,14 +156,14 @@ headerTemplate.innerHTML = `
                     </a>
                 </div>
 
-                <button id="mobile-menu-btn" class="lg:hidden text-gray-700">
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
             </div>
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t">
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
             <div class="px-4 py-4 space-y-3">
                 <a href="/" class="block text-gray-700 hover:text-[#009846] font-medium py-2">Home</a>
 
