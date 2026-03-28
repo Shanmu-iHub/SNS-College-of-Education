@@ -407,7 +407,7 @@ export const MandatoryDisclosurePage = () => {
                 <table class="w-full border-collapse">
                     <tbody>
                         <tr class="hover:bg-gray-50 flex flex-col sm:flex-row divide-y sm:divide-y-0 sm:divide-x divide-gray-200">
-                            <td class="flex-1 px-6 py-4 font-bold text-[#1f2937] flex items-center">YouTube Video of Institutional Inspection</td>
+                            <td class="flex-1 px-6 py-4 font-bold text-[#1f2937] flex items-center">Watch our YouTube Video of Institutional Inspection</td>
                             <td class="px-6 py-4 flex items-center justify-center sm:w-64">
                                 <a href="https://www.youtube.com/c/snsinstitutions" target="_blank" class="text-green-600 hover:underline font-bold">Watch Video</a>
                             </td>
