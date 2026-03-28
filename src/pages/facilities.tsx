@@ -6,7 +6,8 @@ export const FacilitiesPage = () => {
         'World-Class Infrastructure', 
         'Everything your child needs for holistic development under one roof—unlocking their potential at the SPINE Activity Center', 
         '/static/images/infrastructure_bg.jpg',
-        'Facilities'
+        'Facilities',
+        'object-[center_65%]'
     )}
 
     <!-- SPINE Center -->
@@ -19,7 +20,7 @@ export const FacilitiesPage = () => {
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Swimming Pool -->
                 <div class="relative group h-80 rounded-3xl overflow-hidden shadow-xl">
                     <img src="/static/images/spine/swim.webp" alt="Swimming Pool" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
@@ -97,6 +98,16 @@ export const FacilitiesPage = () => {
                     <div class="absolute bottom-6 left-6 text-white">
                         <h3 class="text-2xl font-bold mb-1">Rooftop Dining</h3>
                         <p class="text-sm opacity-90">Fine dining experience focusing on healthy, seasonal meals.</p>
+                    </div>
+                </div>
+
+                <!-- Art Studio (9th Item) -->
+                <div class="relative group h-80 rounded-3xl overflow-hidden shadow-xl">
+                    <img src="/static/images/Education/1.JPG" alt="Art Studio" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-6 left-6 text-white">
+                        <h3 class="text-2xl font-bold mb-1">Art Studio</h3>
+                        <p class="text-sm opacity-90">Creative space for expressing emotions and visualizing concepts.</p>
                     </div>
                 </div>
             </div>

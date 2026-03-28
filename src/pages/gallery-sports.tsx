@@ -7,7 +7,8 @@ export const GalleryPage = () => {
         'Campus Gallery',
         'Explore our world-class infrastructure and vibrant campus life.',
         '/static/images/infrastructure_bg.jpg',
-        'Gallery'
+        'Gallery',
+        'object-[center_65%]'
     )}
 
     <!-- Life at Dr. SNS College of Education -->
