@@ -20,7 +20,7 @@ const { MandatoryDisclosurePage } = jiti(path.join(root, 'src/pages/mandatory-di
 const { GalleryPage, SportsClubsPage } = jiti(path.join(root, 'src/pages/gallery-sports.tsx'));
 const { TransportPage } = jiti(path.join(root, 'src/pages/transport.tsx'));
 const { EventsPage } = jiti(path.join(root, 'src/pages/events.tsx'));
-const { SuccessStoriesPage } = jiti(path.join(root, 'src/pages/success-stories.tsx'));
+
 const { StanfordPathwayPage } = jiti(path.join(root, 'src/pages/stanford-pathway.tsx'));
 
 const srcIndex = await fs.readFile(path.join(root, 'src/index.tsx'), 'utf8');
@@ -49,7 +49,7 @@ const pages = [
 
   { file: 'transport/index.html', html: Layout(TransportPage(), 'Transport Services', 'transport') },
   { file: 'events/index.html', html: Layout(EventsPage(), 'Events & Celebrations', 'events') },
-  { file: 'success-stories/index.html', html: Layout(SuccessStoriesPage(), 'Success Stories', 'success-stories') },
+
   { file: 'stanford-pathway/index.html', html: Layout(StanfordPathwayPage(), 'Pathway to Stanford', 'stanford-pathway') },
 ];
 

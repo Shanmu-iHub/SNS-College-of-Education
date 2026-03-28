@@ -9,7 +9,7 @@ import { MandatoryDisclosurePage } from './pages/mandatory-disclosure'
 import { GalleryPage, SportsClubsPage } from './pages/gallery-sports'
 import { TransportPage } from './pages/transport'
 import { EventsPage } from './pages/events'
-import { SuccessStoriesPage } from './pages/success-stories'
+
 import { StanfordPathwayPage } from './pages/stanford-pathway'
 
 const app = new Hono()
@@ -304,10 +304,6 @@ app.get('/events', (c) => {
     return c.html(Layout(EventsPage(), 'Events & Celebrations', 'events'))
 })
 
-// Success Stories Page
-app.get('/success-stories', (c) => {
-    return c.html(Layout(SuccessStoriesPage(), 'Success Stories', 'success-stories'))
-})
 
 // Stanford Pathway Page
 app.get('/stanford-pathway', (c) => {

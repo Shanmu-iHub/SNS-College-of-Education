@@ -308,7 +308,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                                 <a href="/sports-clubs" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">Sports & Clubs</a>
                                 <a href="/innovation" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">Innovation Hub</a>
                                 <a href="/events" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">Events & Celebrations</a>
-                                <!-- <a href="/success-stories" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">Success Stories</a> -->
+
                             </div>
                         </div>
                         
@@ -378,7 +378,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             <a href="/sports-clubs" class="block text-gray-600 hover:text-orange-600 py-1">Sports & Clubs</a>
                             <a href="/innovation" class="block text-gray-600 hover:text-orange-600 py-1">Innovation Hub</a>
                             <a href="/events" class="block text-gray-600 hover:text-orange-600 py-1">Events & Celebrations</a>
-                            <!-- <a href="/success-stories" class="block text-gray-600 hover:text-orange-600 py-1">Success Stories</a> -->
+
                         </div>
                     </div>
                     
@@ -431,7 +431,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             <li><a href="/gallery" class="hover:text-white transition">Gallery</a></li>
                             <li><a href="/sports-clubs" class="hover:text-white transition">Sports & Clubs</a></li>
                             <li><a href="/events" class="hover:text-white transition">Events & Celebrations</a></li>
-                            <!-- <li><a href="/success-stories" class="hover:text-white transition">Success Stories</a></li> -->
+
                             <li><a href="/transport" class="hover:text-white transition">Transport</a></li>
                             <li><a href="/innovation" class="hover:text-white transition">Innovation Hub</a></li>
 
