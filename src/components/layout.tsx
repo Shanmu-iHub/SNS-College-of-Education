@@ -301,14 +301,14 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                         
                         <!-- Beyond Academics Dropdown -->
                         <div class="relative group">
-                            <button class="${['sports-clubs', 'innovation', 'events', 'success-stories'].includes(activePage) ? 'text-orange-600 font-bold' : 'text-gray-700 hover:text-orange-600'} font-medium flex items-center">
+                            <button class="${['sports-clubs', 'innovation', 'events'].includes(activePage) ? 'text-orange-600 font-bold' : 'text-gray-700 hover:text-orange-600'} font-medium flex items-center">
                                 Beyond Academics <i class="fas fa-chevron-down ml-1 text-xs"></i>
                             </button>
                             <div class="absolute hidden group-hover:block bg-white shadow-xl rounded-lg py-2 w-56 mt-0 z-50">
                                 <a href="/sports-clubs" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">Sports & Clubs</a>
                                 <a href="/innovation" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">Innovation Hub</a>
                                 <a href="/events" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">Events & Celebrations</a>
-                                <!-- HIDDEN: <a href="/success-stories" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">Success Stories</a> -->
+                                <!-- <a href="/success-stories" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">Success Stories</a> -->
                             </div>
                         </div>
                         
@@ -378,7 +378,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             <a href="/sports-clubs" class="block text-gray-600 hover:text-orange-600 py-1">Sports & Clubs</a>
                             <a href="/innovation" class="block text-gray-600 hover:text-orange-600 py-1">Innovation Hub</a>
                             <a href="/events" class="block text-gray-600 hover:text-orange-600 py-1">Events & Celebrations</a>
-                            <!-- HIDDEN: <a href="/success-stories" class="block text-gray-600 hover:text-orange-600 py-1">Success Stories</a> -->
+                            <!-- <a href="/success-stories" class="block text-gray-600 hover:text-orange-600 py-1">Success Stories</a> -->
                         </div>
                     </div>
                     
@@ -402,7 +402,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
         </nav>
 
         <!-- Content -->
-        ${content}
+        \${content}
 
         <!-- Footer -->
         <footer class="bg-gray-900 text-gray-300 py-12">
@@ -431,7 +431,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             <li><a href="/gallery" class="hover:text-white transition">Gallery</a></li>
                             <li><a href="/sports-clubs" class="hover:text-white transition">Sports & Clubs</a></li>
                             <li><a href="/events" class="hover:text-white transition">Events & Celebrations</a></li>
-                            <!-- HIDDEN: <li><a href="/success-stories" class="hover:text-white transition">Success Stories</a></li> -->
+                            <!-- <li><a href="/success-stories" class="hover:text-white transition">Success Stories</a></li> -->
                             <li><a href="/transport" class="hover:text-white transition">Transport</a></li>
                             <li><a href="/innovation" class="hover:text-white transition">Innovation Hub</a></li>
 
