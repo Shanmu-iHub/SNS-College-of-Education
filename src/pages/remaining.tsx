@@ -463,7 +463,7 @@ export const AboutPage = () => {
                         <!-- Pillar 3 -->
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
                             <div class="h-48 overflow-hidden">
-                                <img src="/static/images/culture/Website Photo/3.JPG" alt="Creativity" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                                <img src="/static/images/creativity_center.jpg" alt="Creativity" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
                             </div>
                             <div class="p-8">
                                 <h3 class="text-xl font-bold mb-3 text-gray-900">3. Centre for Creativity</h3>
