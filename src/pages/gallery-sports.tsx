@@ -5,8 +5,8 @@ export const GalleryPage = () => {
     return `
     ${PageHeader(
         'Campus Gallery',
-        'Explore our world-class infrastructure and vibrant campus life',
-        '/static/images/hero5.png',
+        'Explore our world-class infrastructure and vibrant campus life.',
+        '/static/images/infrastructure_bg.jpg',
         'Gallery'
     )}
 

@@ -365,7 +365,7 @@ export const AboutPage = () => {
     ${PageHeader(
         'About Dr. SNS College of Education',
         'Redesigning Common Minds & Business Towards Excellence',
-        '/static/images/hero.png',
+        '/static/images/campus_bg.png',
         'About Us'
     )}
 
@@ -437,10 +437,10 @@ export const AboutPage = () => {
                         <!-- Pillar 1 -->
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
                             <div class="h-48 overflow-hidden">
-                                <img src="/static/images/culture/Website Photo/1.JPG" alt="Learning" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                                <img src="/static/images/learning_teaching.jpg" alt="Learning" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
                             </div>
                             <div class="p-8">
-                                <h3 class="text-xl font-bold mb-3 text-gray-900">1. Learning & Teaching</h3>
+                                <h3 class="text-xl font-bold mb-3 text-gray-900">1. Center for Learning and Teaching</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
                                     Practice Design Thinking-Based Academic Learning & Teaching. We move from rote memorization to active understanding.
                                 </p>
@@ -450,7 +450,7 @@ export const AboutPage = () => {
                         <!-- Pillar 2 -->
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
                             <div class="h-48 overflow-hidden">
-                                <img src="/static/images/culture/Website Photo/2.JPG" alt="Skill Development" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                                <img src="/static/images/skill_career_dev.jpg" alt="Skill Development" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
                             </div>
                             <div class="p-8">
                                 <h3 class="text-xl font-bold mb-3 text-gray-900">2. Skill & Career Development</h3>
@@ -476,10 +476,10 @@ export const AboutPage = () => {
                         <!-- Pillar 4 -->
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
                             <div class="h-48 overflow-hidden">
-                                <img src="/static/images/culture/Website Photo/4.JPG" alt="Industry Partnership" class="w-full h-full object-cover transform group-hover:scale-100 transition duration-700">
+                                <img src="/static/images/industry_partnership.jpg" alt="Industry Partnership" class="w-full h-full object-cover transform group-hover:scale-100 transition duration-700">
                             </div>
                             <div class="p-8">
-                                <h3 class="text-xl font-bold mb-3 text-gray-900">4. Industry Partnership</h3>
+                                <h3 class="text-xl font-bold mb-3 text-gray-900">4. Industry Institute Partnership Cell</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
                                     Connecting classrooms with boardrooms. Students learn business sense directly from industry leaders.
                                 </p>
@@ -489,10 +489,10 @@ export const AboutPage = () => {
                         <!-- Pillar 5 -->
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
                             <div class="h-48 overflow-hidden">
-                                <img src="/static/images/culture/Website Photo/5.JPG" alt="Social Responsibility" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                                <img src="/static/images/social_responsibility.jpg" alt="Social Responsibility" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
                             </div>
                             <div class="p-8">
-                                <h3 class="text-xl font-bold mb-3 text-gray-900">5. Social Responsibility</h3>
+                                <h3 class="text-xl font-bold mb-3 text-gray-900">5. Social Responsibility Initiatives</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
                                     Cultivating compassion. Giving back to society through impactful social service initiatives.
                                 </p>
@@ -614,7 +614,7 @@ export const ContactPage = () => {
     ${PageHeader(
         'Contact Us',
         'We\'d love to hear from you. Visit us or get in touch today!',
-        '/static/images/hero.png',
+        '/static/images/campus_bg.png',
         'Contact Us'
     )}
 
@@ -707,7 +707,7 @@ export const AdmissionsPage = () => {
     ${PageHeader(
         'Admissions 2026-27',
         'Begin Your Child\'s Journey to Excellence',
-        '/static/images/hero.png',
+        '/static/images/campus_bg.png',
         'Admissions'
     )}
 

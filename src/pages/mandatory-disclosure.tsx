@@ -3,9 +3,9 @@ import { PageHeader } from '../components/page-header'
 export const MandatoryDisclosurePage = () => {
     return `
     ${PageHeader(
-        'Mandatory Public Disclosure',
-        'As per University Guidelines',
-        '/static/images/hero.png',
+        'Mandatory Disclosure',
+        'Official institutional documentation and regulatory compliance information.',
+        '/static/images/campus_bg.png',
         'Mandatory Disclosure'
     )}
 

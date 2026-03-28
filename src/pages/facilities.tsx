@@ -5,7 +5,7 @@ export const FacilitiesPage = () => {
     ${PageHeader(
         'World-Class Infrastructure', 
         'Everything your child needs for holistic development under one roof—unlocking their potential at the SPINE Activity Center', 
-        '/static/images/hero5.png',
+        '/static/images/infrastructure_bg.jpg',
         'Facilities'
     )}
 
@@ -13,9 +13,9 @@ export const FacilitiesPage = () => {
     <section class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">SPINE: An Inimitable <span class="text-orange-500">Business Lifestyle</span></h2>
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">SNS SPINE Activity Center</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    World-class facilities for mental & physical wellbeing
+                    A 5-level premier activity center for sports, wellness, and recreation, ensuring a balanced student life.
                 </p>
             </div>
 
@@ -26,7 +26,7 @@ export const FacilitiesPage = () => {
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 text-white">
                         <h3 class="text-2xl font-bold mb-1">Swimming Pool</h3>
-                        <p class="text-sm opacity-90">Dive into excellence.</p>
+                        <p class="text-sm opacity-90">Professional-grade swimming pool with trained coaches to build physical endurance.</p>
                     </div>
                 </div>
 
@@ -35,8 +35,8 @@ export const FacilitiesPage = () => {
                     <img src="/static/images/spine/indoor.jpg" alt="Indoor Pitch" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Indoor Pitch</h3>
-                        <p class="text-sm opacity-90">All-weather sports.</p>
+                        <h3 class="text-2xl font-bold mb-1">Indoor Cricket</h3>
+                        <p class="text-sm opacity-90">All-weather cricket pitch with bowling machines and nets for all skill levels.</p>
                     </div>
                 </div>
 
@@ -45,8 +45,8 @@ export const FacilitiesPage = () => {
                     <img src="/static/images/spine/fitness.jpg" alt="Fitness Gym" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Fitness Gym</h3>
-                        <p class="text-sm opacity-90">Train hard, shape up.</p>
+                        <h3 class="text-2xl font-bold mb-1">Fitness Center</h3>
+                        <p class="text-sm opacity-90">Fully-equipped gym with strength machines, weights, and boxing kits for holistic health.</p>
                     </div>
                 </div>
 
@@ -55,8 +55,8 @@ export const FacilitiesPage = () => {
                     <img src="/static/images/spine/gaming.jpg" alt="Gaming Center" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Gaming Center</h3>
-                        <p class="text-sm opacity-90">Innovation through play.</p>
+                        <h3 class="text-2xl font-bold mb-1">Gaming Arena</h3>
+                        <p class="text-sm opacity-90">State-of-the-art space for strategic thinking and teamwork.</p>
                     </div>
                 </div>
 
@@ -65,8 +65,8 @@ export const FacilitiesPage = () => {
                     <img src="/static/images/spine/theatre.png" alt="Mini Theatre" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Mini Theatre</h3>
-                        <p class="text-sm opacity-90">Entertainment redefined.</p>
+                        <h3 class="text-2xl font-bold mb-1">Bioskop Theater</h3>
+                        <p class="text-sm opacity-90">Digital theater for educational films and cinematic entertainment.</p>
                     </div>
                 </div>
 
@@ -76,7 +76,7 @@ export const FacilitiesPage = () => {
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 text-white">
                         <h3 class="text-2xl font-bold mb-1">Music Studio</h3>
-                        <p class="text-sm opacity-90">Fuel your soul.</p>
+                        <p class="text-sm opacity-90">Professional music studio with recording equipment to compose and practice.</p>
                     </div>
                 </div>
 
@@ -86,7 +86,7 @@ export const FacilitiesPage = () => {
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 text-white">
                         <h3 class="text-2xl font-bold mb-1">Dance Studio</h3>
-                        <p class="text-sm opacity-90">Art meets innovation.</p>
+                        <p class="text-sm opacity-90">Dedicated space for various dance styles—from classical to contemporary movement.</p>
                     </div>
                 </div>
 
@@ -95,8 +95,8 @@ export const FacilitiesPage = () => {
                     <img src="/static/images/spine/lounge.jpg" alt="Connection Lounge" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Connection Lounge</h3>
-                        <p class="text-sm opacity-90">Network and relax.</p>
+                        <h3 class="text-2xl font-bold mb-1">Rooftop Dining</h3>
+                        <p class="text-sm opacity-90">Fine dining experience focusing on healthy, seasonal meals.</p>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ export const FacilitiesPage = () => {
                         <i class="fas fa-chalkboard-teacher text-2xl text-blue-600 group-hover:text-white"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3">Smart Classrooms</h3>
-                    <p class="text-sm text-gray-600">Interactive learning with smart boards</p>
+                    <p class="text-sm text-gray-600">Interactive learning with smart boards and digital pedagogy tools.</p>
                 </div>
 
                 <!-- Science Labs -->
@@ -130,7 +130,7 @@ export const FacilitiesPage = () => {
                         <i class="fas fa-flask text-2xl text-red-600 group-hover:text-white"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3">Science Labs</h3>
-                    <p class="text-sm text-gray-600">Physics, Chemistry & Biology labs</p>
+                    <p class="text-sm text-gray-600">Advanced equipment for Physics, Chemistry & Biology experiments.</p>
                 </div>
 
                 <!-- Computer Labs -->
