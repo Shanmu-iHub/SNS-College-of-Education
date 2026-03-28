@@ -6,7 +6,7 @@ export const InnovationPage = () => {
     ${PageHeader(
         'SNS Innovation Hub',
         'Powered by India\'s First Patented GenAI Design Thinking Framework | India\'s Y-Combinator for Schools',
-        '/static/images/pillar_industry.jpg',
+        '/static/images/innovation_hub_bg.jpg',
         'Innovation Hub'
     )}
 
