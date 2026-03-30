@@ -175,9 +175,8 @@ When hosting allows, replace icon placeholders with:
    - Music, Dance, Drama performances
    - Robotics projects, Science experiments
 
-5. **Events & Achievements** - Student success stories
-
 **Image Placement Locations** (Ready for real photos):
+
 ```typescript
 // Replace icon divs with actual images:
 <img src="/static/images/hero-students.jpg" alt="Happy students" />
