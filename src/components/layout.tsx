@@ -416,9 +416,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             </div>
                         </div>
                         <p class="text-sm leading-relaxed">
-                            Tamil Nadu Teachers Education University<br>
-                            Established: 2007<br>
-                            Coimbatore, Tamil Nadu
+                            Affiliated to Tamil Nadu Teachers Education University
                         </p>
                     </div>
                     
@@ -457,9 +455,9 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                         <ul class="space-y-2 text-sm mb-4">
                             <li><i class="fas fa-map-marker-alt mr-2"></i>Dr. SNS College of Education,<br />Thudiyalur-Saravanampatti Road,<br />Chinnavedampatti (PO),<br />Coimbatore - 641 049</li>
                             <li><a href="tel:+919003655855" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission: +91-90036 55855</a></li>
-                            <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Office: 7530093728 / 729</a></li>
-                            <li><a href="mailto:principal@dsnsce.edu.in" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>principal@dsnsce.edu.in</a></li>
-                            <li><a href="mailto:job@snsgroups.com" class="hover:text-white transition"><i class="fas fa-briefcase mr-2"></i>job@snsgroups.com</a></li>
+                            <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Office: +91-7530093728</a></li>
+                            <li><a href="mailto:principal@snscphysio.org" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>Email: principal@snscphysio.org</a></li>
+                            <li><a href="mailto:job@snsgroups.com" class="hover:text-white transition"><i class="fas fa-briefcase mr-2"></i>Career: job@snsgroups.com</a></li>
                         </ul>
                         <div class="flex space-x-3">
                             <a href="https://www.facebook.com/snsinstitutions" target="_blank" class="w-10 h-10 bg-gray-800 hover:bg-orange-600 rounded-lg flex items-center justify-center transition">
