@@ -455,11 +455,11 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                     <div>
                         <h4 class="text-white font-bold mb-4">Connect</h4>
                         <ul class="space-y-2 text-sm mb-4">
-                            <li><i class="fas fa-map-marker-alt mr-2"></i>Dr. SNS College of Education,<br />Thudiyalur - Saravanampatti Road,<br />Vellakinar Post,<br />Coimbatore - 641029.</li>
-                            <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission: +91 75300 93728</a></li>
-                            <li><a href="tel:+917530093730" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Landline: +91 75300 93730</a></li>
-                            <li><a href="mailto:info@snsacademy.org" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>info@snsacademy.org</a></li>
-                            <li><a href="mailto:job@snsgroups.com" class="hover:text-white transition"><i class="fas fa-briefcase mr-2"></i>Career: job@snsgroups.com</a></li>
+                            <li><i class="fas fa-map-marker-alt mr-2"></i>Dr. SNS College of Education,<br />Thudiyalur-Saravanampatti Road,<br />Chinnavedampatti (PO),<br />Coimbatore - 641 049</li>
+                            <li><a href="tel:+919003655855" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission number: +91-90036 55855</a></li>
+                            <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Office number: 7530093728 / 729</a></li>
+                            <li><a href="mailto:principal@dsnsce.edu.in" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>principal@dsnsce.edu.in</a></li>
+                            <li><a href="mailto:job@snsgroups.com" class="hover:text-white transition"><i class="fas fa-briefcase mr-2"></i>job@snsgroups.com</a></li>
                         </ul>
                         <div class="flex space-x-3">
                             <a href="https://www.facebook.com/snsinstitutions" target="_blank" class="w-10 h-10 bg-gray-800 hover:bg-orange-600 rounded-lg flex items-center justify-center transition">
@@ -482,7 +482,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                     <p>&copy; 2026 Dr. SNS College of Education. All rights reserved.</p>
                     <p class="mt-2 text-orange-400 font-semibold">Redesigning Common Minds | We are Design Thinkers</p>
                     <p class="mt-1 text-xs">SNS Core Value: Sincerity, Nobility, Service</p>
-                    <p class="mt-3 text-orange-400 font-bold"><i class="fas fa-headset mr-2"></i>Helpline: 95644 23456</p>
+                    <p class="mt-3 text-orange-400 font-bold"><i class="fas fa-headset mr-2"></i>Admission details: +91-90036 55855</p>
                 </div>
             </div>
         </footer>
@@ -513,7 +513,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
             <i class="fab fa-instagram"></i>
         </a>
         <!-- WhatsApp Floating Icon -->
-        <a href="https://wa.me/917530093728" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+        <a href="https://wa.me/919003655855" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
             title="Chat with us on WhatsApp">
             <i class="fab fa-whatsapp"></i>
         </a>

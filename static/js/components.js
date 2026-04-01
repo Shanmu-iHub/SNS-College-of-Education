@@ -302,11 +302,11 @@ footerTemplate.innerHTML = `
                 <div>
                     <h4 class="text-white font-bold mb-4">Connect</h4>
                     <ul class="space-y-2 text-sm mb-4">
-                        <li><i class="fas fa-map-marker-alt mr-2"></i>Dr. SNS College of Education,<br />Chinavedampatti (Post),<br />Thudiyalur - Saravanampatti Road,<br />Coimbatore - 641049</li>
-                        <li><a href="tel:+917530093729" class="hover:text-white transition"><i
-                                    class="fas fa-phone mr-2"></i>Mobile: 7530093729, 7530093728</a></li>
-                        <li><a href="mailto:office@drsnsce.edu.in" class="hover:text-white transition"><i
-                                    class="fas fa-envelope mr-2"></i>office@drsnsce.edu.in</a></li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i>Dr. SNS College of Education,<br />Thudiyalur-Saravanampatti Road,<br />Chinnavedampatti (PO),<br />Coimbatore - 641 049</li>
+                        <li><a href="tel:+919003655855" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission number: +91-90036 55855</a></li>
+                        <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Office number: 7530093728 / 729</a></li>
+                        <li><a href="mailto:principal@dsnsce.edu.in" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>principal@dsnsce.edu.in</a></li>
+                        <li><a href="mailto:job@snsgroups.com" class="hover:text-white transition"><i class="fas fa-briefcase mr-2"></i>job@snsgroups.com</a></li>
                     </ul>
                     <div class="flex space-x-3">
                         <a href="https://www.facebook.com/snsinstitutions" target="_blank"
@@ -333,7 +333,7 @@ footerTemplate.innerHTML = `
                 <p>&copy; 2026 Dr. SNS College of Education. All rights reserved.</p>
                 <p class="mt-2 text-[#009846] font-semibold">Redesigning Common Minds | We are Design Thinkers</p>
                 <p class="mt-1 text-xs">SNS Core Value: Sincerity, Nobility, Service</p>
-                <p class="mt-3 text-[#009846] font-bold"><i class="fas fa-headset mr-2"></i>Helpline: 7530093729</p>
+                <p class="mt-3 text-[#009846] font-bold"><i class="fas fa-headset mr-2"></i>Admission details: +91-90036 55855</p>
             </div>
         </div>
     </footer>
@@ -347,7 +347,7 @@ footerTemplate.innerHTML = `
         <i class="fab fa-instagram"></i>
     </a>
     <!-- WhatsApp Floating Icon -->
-    <a href="https://wa.me/917530093728" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+    <a href="https://wa.me/919003655855" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
         title="Chat with us on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
