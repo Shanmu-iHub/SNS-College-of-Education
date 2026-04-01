@@ -22,92 +22,128 @@ export const FacilitiesPage = () => {
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Swimming Pool -->
-                <div class="relative group h-80 rounded-3xl overflow-hidden shadow-xl">
-                    <img src="/static/images/spine/swim.webp" alt="Swimming Pool" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Swimming Pool</h3>
-                        <p class="text-sm opacity-90">Professional-grade swimming pool with trained coaches to build physical endurance.</p>
+                <div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition z-10"></div>
+                        <img src="/static/images/spine/swim.webp" alt="Swimming Pool" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                    </div>
+                    <div class="p-8 bg-white relative z-20">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Swimming Pool</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            Professional-grade swimming pool with trained coaches to build physical endurance.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Indoor Pitch -->
-                <div class="relative group h-80 rounded-3xl overflow-hidden shadow-xl">
-                    <img src="/static/images/spine/indoor.jpg" alt="Indoor Pitch" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Indoor Cricket</h3>
-                        <p class="text-sm opacity-90">All-weather cricket pitch with bowling machines and nets for all skill levels.</p>
+                <div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition z-10"></div>
+                        <img src="/static/images/spine/indoor.jpg" alt="Indoor Pitch" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                    </div>
+                    <div class="p-8 bg-white relative z-20">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Indoor Cricket</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            All-weather cricket pitch with bowling machines and nets for all skill levels.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Fitness Gym -->
-                <div class="relative group h-80 rounded-3xl overflow-hidden shadow-xl">
-                    <img src="/static/images/spine/fitness.jpg" alt="Fitness Gym" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Fitness Center</h3>
-                        <p class="text-sm opacity-90">Fully-equipped gym with strength machines, weights, and boxing kits for holistic health.</p>
+                <div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition z-10"></div>
+                        <img src="/static/images/spine/fitness.jpg" alt="Fitness Gym" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                    </div>
+                    <div class="p-8 bg-white relative z-20">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Fitness Center</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            Fully-equipped gym with strength machines, weights, and boxing kits for holistic health.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Gaming Center -->
-                <div class="relative group h-80 rounded-3xl overflow-hidden shadow-xl">
-                    <img src="/static/images/spine/gaming.jpg" alt="Gaming Center" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Gaming Arena</h3>
-                        <p class="text-sm opacity-90">State-of-the-art space for strategic thinking and teamwork.</p>
+                <div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition z-10"></div>
+                        <img src="/static/images/spine/gaming.jpg" alt="Gaming Center" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                    </div>
+                    <div class="p-8 bg-white relative z-20">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Gaming Arena</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            State-of-the-art space for strategic thinking and teamwork.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Mini Theatre -->
-                <div class="relative group h-80 rounded-3xl overflow-hidden shadow-xl">
-                    <img src="/static/images/spine/theatre.png" alt="Mini Theatre" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Bioskop Theater</h3>
-                        <p class="text-sm opacity-90">Digital theater for educational films and cinematic entertainment.</p>
+                <div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition z-10"></div>
+                        <img src="/static/images/spine/theatre.png" alt="Mini Theatre" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                    </div>
+                    <div class="p-8 bg-white relative z-20">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Bioskop Theater</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            Digital theater for educational films and cinematic entertainment.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Music Studio -->
-                <div class="relative group h-80 rounded-3xl overflow-hidden shadow-xl">
-                    <img src="/static/images/spine/music.jpg" alt="Music Studio" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Music Studio</h3>
-                        <p class="text-sm opacity-90">Professional music studio with recording equipment to compose and practice.</p>
+                <div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition z-10"></div>
+                        <img src="/static/images/spine/music.jpg" alt="Music Studio" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                    </div>
+                    <div class="p-8 bg-white relative z-20">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Music Studio</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            Professional music studio with recording equipment to compose and practice.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Dance Studio -->
-                <div class="relative group h-80 rounded-3xl overflow-hidden shadow-xl">
-                    <img src="/static/images/spine/dance.jpg" alt="Dance Studio" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Dance Studio</h3>
-                        <p class="text-sm opacity-90">Dedicated space for various dance styles—from classical to contemporary movement.</p>
+                <div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition z-10"></div>
+                        <img src="/static/images/spine/dance.jpg" alt="Dance Studio" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                    </div>
+                    <div class="p-8 bg-white relative z-20">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Dance Studio</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            Dedicated space for various dance styles—from classical to contemporary movement.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Connection Lounge -->
-                <div class="relative group h-80 rounded-3xl overflow-hidden shadow-xl">
-                    <img src="/static/images/spine/lounge.jpg" alt="Connection Lounge" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Rooftop Dining</h3>
-                        <p class="text-sm opacity-90">Fine dining experience focusing on healthy, seasonal meals.</p>
+                <div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition z-10"></div>
+                        <img src="/static/images/spine/lounge.jpg" alt="Connection Lounge" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                    </div>
+                    <div class="p-8 bg-white relative z-20">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Rooftop Dining</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            Fine dining experience focusing on healthy, seasonal meals.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Art Studio (9th Item) -->
-                <div class="relative group h-80 rounded-3xl overflow-hidden shadow-xl">
-                    <img src="/static/images/Education/1.JPG" alt="Art Studio" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 text-white">
-                        <h3 class="text-2xl font-bold mb-1">Art Studio</h3>
-                        <p class="text-sm opacity-90">Creative space for expressing emotions and visualizing concepts.</p>
+                <div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition z-10"></div>
+                        <img src="/static/images/Education/1.JPG" alt="Art Studio" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                    </div>
+                    <div class="p-8 bg-white relative z-20">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Art Studio</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            Creative space for expressing emotions and visualizing concepts.
+                        </p>
                     </div>
                 </div>
             </div>
