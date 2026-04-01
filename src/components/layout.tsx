@@ -456,8 +456,8 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                         <h4 class="text-white font-bold mb-4">Connect</h4>
                         <ul class="space-y-2 text-sm mb-4">
                             <li><i class="fas fa-map-marker-alt mr-2"></i>Dr. SNS College of Education,<br />Thudiyalur-Saravanampatti Road,<br />Chinnavedampatti (PO),<br />Coimbatore - 641 049</li>
-                            <li><a href="tel:+919003655855" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission number: +91-90036 55855</a></li>
-                            <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Office number: 7530093728 / 729</a></li>
+                            <li><a href="tel:+919003655855" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission: +91-90036 55855</a></li>
+                            <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Office: 7530093728 / 729</a></li>
                             <li><a href="mailto:principal@dsnsce.edu.in" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>principal@dsnsce.edu.in</a></li>
                             <li><a href="mailto:job@snsgroups.com" class="hover:text-white transition"><i class="fas fa-briefcase mr-2"></i>job@snsgroups.com</a></li>
                         </ul>
