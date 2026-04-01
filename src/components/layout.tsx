@@ -416,8 +416,8 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             </div>
                         </div>
                         <p class="text-sm leading-relaxed">
-                            CBSE Affiliation: 1930610<br>
-                            Established: 2014<br>
+                            Tamil Nadu Teachers Education University<br>
+                            Established: 2007<br>
                             Coimbatore, Tamil Nadu
                         </p>
                     </div>
@@ -482,7 +482,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                     <p>&copy; 2026 Dr. SNS College of Education. All rights reserved.</p>
                     <p class="mt-2 text-orange-400 font-semibold">Redesigning Common Minds | We are Design Thinkers</p>
                     <p class="mt-1 text-xs">SNS Core Value: Sincerity, Nobility, Service</p>
-                    <p class="mt-3 text-orange-400 font-bold"><i class="fas fa-headset mr-2"></i>Admission details: +91-90036 55855</p>
+                    <p class="mt-3 text-orange-400 font-bold"><i class="fas fa-headset mr-2"></i>Admission: +91-90036 55855</p>
                 </div>
             </div>
         </footer>
