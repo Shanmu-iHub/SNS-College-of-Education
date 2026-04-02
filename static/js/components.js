@@ -2,14 +2,8 @@ const headerTemplate = document.createElement('template');
 headerTemplate.innerHTML = `
     <!-- Floating Side Tags -->
     <div class="fixed top-[25%] right-0 z-50 flex flex-col gap-6 items-end">
-        <!-- Hanging Tag 1: NCTE Recognized -->
-        <div class="bg-gradient-to-br from-green-600 to-emerald-600 text-white w-14 py-4 rounded-l-2xl shadow-2xl flex flex-col items-center hover:-translate-x-2 transition-all duration-300 cursor-pointer group relative anim-swing">
-            <span class="font-bold text-[11px] uppercase tracking-[0.2em] text-center leading-none inline-block"
-                style="writing-mode: vertical-rl; text-orientation: upright;">NCTE RECOGNIZED</span>
-        </div>
-        
-        <!-- Hanging Tag 2: Brochure -->
-        <a href="/brochure-viewer/" target="_blank" class="bg-gradient-to-br from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white w-14 py-10 rounded-l-2xl shadow-2xl flex flex-col items-center gap-4 hover:-translate-x-2 transition-all duration-300 relative group anim-swing-delayed">
+        <!-- Hanging Tag: Brochure -->
+        <a href="/brochure-viewer/" target="_blank" class="bg-gradient-to-br from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white w-14 py-10 rounded-l-2xl shadow-2xl flex flex-col items-center gap-4 hover:-translate-x-2 transition-all duration-300 relative group anim-swing">
             <div class="flex flex-col items-center gap-1 mb-1">
                 <i class="fas fa-file-pdf text-xl drop-shadow-md"></i>
                 <span class="text-[8px] font-black opacity-90">PDF</span>
@@ -300,7 +294,7 @@ footerTemplate.innerHTML = `
                 <div>
                     <h4 class="text-white font-bold mb-4">Connect</h4>
                     <ul class="space-y-2 text-sm mb-4">
-                        <li><i class="fas fa-map-marker-alt mr-2"></i>Dr. SNS College of Education,<br />Thudiyalur-Saravanampatti Road,<br />Chinnavedampatti (PO),<br />Coimbatore - 641 049</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i>Dr. SNS College of Education,<br />Thudiyalur - Saravanampatti Road,<br />Chinavedampatti(PO),<br />Coimbatore - 641049</li>
                         <li><a href="tel:+919003655855" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission: +91-90036 55855</a></li>
                         <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Office: +91-7530093728/729</a></li>
                         <li><a href="mailto:principal@snscphysio.org" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>Email: principal@snscphysio.org</a></li>
