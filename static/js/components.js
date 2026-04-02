@@ -294,7 +294,7 @@ footerTemplate.innerHTML = `
                 <div>
                     <h4 class="text-white font-bold mb-4">Connect</h4>
                     <ul class="space-y-2 text-sm mb-4">
-                        <li><i class="fas fa-map-marker-alt mr-2"></i>Dr. SNS College of Education,<br />Thudiyalur - Saravanampatti Road,<br />Chinavedampatti(PO),<br />Coimbatore - 641049</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i>Thudiyalur - Saravanampatti Road,<br />Chinavedampatti(PO),<br />Coimbatore - 641049</li>
                         <li><a href="tel:+919003655855" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission: +91-90036 55855</a></li>
                         <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Office: +91-7530093728/729</a></li>
                         <li><a href="mailto:principal@snscphysio.org" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>Email: principal@snscphysio.org</a></li>
