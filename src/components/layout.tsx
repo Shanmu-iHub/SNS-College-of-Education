@@ -323,7 +323,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             <div class="absolute hidden group-hover:block bg-white shadow-xl rounded-lg py-2 w-56 mt-0 z-50">
                                 <a href="/about" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">About Us</a>
                                 <a href="/contact" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">Contact Us</a>
-                                <a href="/mandatory-disclosure" class="block px-4 py-2 hover:bg-orange-50 text-gray-700">Mandatory Disclosure</a>
+                                <button onclick="window.open('https://main.snsgroups.com/mandatory-disclosure/index.html#/education', '_blank')" class="w-full text-left block px-4 py-2 hover:bg-orange-50 text-gray-700">Mandatory Disclosure</button>
                             </div>
                         </div>
                         
@@ -393,7 +393,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                         <div id="mobile-meetus" class="hidden pl-4 space-y-2 mt-2">
                             <a href="/about" class="block text-gray-600 hover:text-orange-600 py-1">About Us</a>
                             <a href="/contact" class="block text-gray-600 hover:text-orange-600 py-1">Contact Us</a>
-                            <a href="/mandatory-disclosure" class="block text-gray-600 hover:text-orange-600 py-1">Mandatory Disclosure</a>
+                            <button onclick="window.open('https://main.snsgroups.com/mandatory-disclosure/index.html#/education', '_blank')" class="w-full text-left block text-gray-600 hover:text-orange-600 py-1">Mandatory Disclosure</button>
                         </div>
                     </div>
                     
@@ -449,7 +449,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             <li><a href="/academics/middle" class="hover:text-white transition">Middle School</a></li>
                             <li><a href="/academics/secondary" class="hover:text-white transition">Secondary & Senior Secondary</a></li>
                             <li><a href="/stanford-pathway" class="hover:text-white transition">Pathway to Stanford</a></li>
-                            <li><a href="/mandatory-disclosure" class="hover:text-white transition">Mandatory Disclosure</a></li>
+                            <li><button onclick="window.open('https://main.snsgroups.com/mandatory-disclosure/index.html#/education', '_blank')" class="hover:text-white transition w-full text-left">Mandatory Disclosure</button></li>
                         </ul>
                     </div>
                     
