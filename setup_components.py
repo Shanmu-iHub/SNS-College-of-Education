@@ -131,7 +131,7 @@ for filepath in html_files:
 
     # Add the script to the head component
     if 'static/js/components.js' not in content:
-        content = re.sub(r'(</head>)', r'    <script src="/static/js/components.js" defer></script>\n\1', content)
+        content = re.sub(r'(</head>)', r'    <script src="/static/js/components.js?v=1.1" defer></script>\n\1', content)
 
     # Note: Handle specific hanging tag 1 case
     content = re.sub(r'<!-- Hanging Tag 1: CBSE -->.*?</nav>', '<app-header></app-header>', content, flags=re.DOTALL)
