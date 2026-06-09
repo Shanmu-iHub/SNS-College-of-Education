@@ -294,10 +294,10 @@ footerTemplate.innerHTML = `
                 <div>
                     <h4 class="text-white font-bold mb-4">Connect</h4>
                     <ul class="space-y-2 text-sm mb-4">
-                        <li><i class="fas fa-map-marker-alt mr-2"></i>Thudiyalur - Saravanampatti Road,<br />Chinavedampatti(PO),<br />Coimbatore - 641049</li>
-                        <li><a href="tel:+919003655855" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission: +91-90036 55855</a></li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i>487, Thudiyalur, Saravanampatti Road,<br />Chinnavedampatti Post,<br />Coimbatore - 641049</li>
+                        <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission: +91-7530093728/729</a></li>
                         <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Office: +91-7530093728/729</a></li>
-                        <li><a href="mailto:principal@snscphysio.org" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>Email: principal@snscphysio.org</a></li>
+                        <li><a href="mailto:principal@drsnsce.edu.in" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>Email: principal@drsnsce.edu.in</a></li>
                         <li><a href="mailto:job@snsgroups.com" class="hover:text-white transition"><i class="fas fa-briefcase mr-2"></i>Career: job@snsgroups.com</a></li>
                     </ul>
                     <div class="flex space-x-3">
@@ -325,7 +325,7 @@ footerTemplate.innerHTML = `
                 <p>&copy; 2026 Dr. SNS College of Education. All rights reserved.</p>
                 <p class="mt-2 text-[#009846] font-semibold">Redesigning Common Minds | We are Design Thinkers</p>
                 <p class="mt-1 text-xs">SNS Core Value: Sincerity, Nobility, Service</p>
-                <p class="mt-3 text-[#009846] font-bold"><i class="fas fa-headset mr-2"></i>Admission: +91-90036 55855</p>
+                <p class="mt-3 text-[#009846] font-bold"><i class="fas fa-headset mr-2"></i>Admission: +91-7530093728 / 729</p>
             </div>
         </div>
     </footer>
@@ -339,7 +339,7 @@ footerTemplate.innerHTML = `
         <i class="fab fa-instagram"></i>
     </a>
     <!-- WhatsApp Floating Icon -->
-    <a href="https://wa.me/919003655855" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+    <a href="https://wa.me/917530093728" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
         title="Chat with us on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
