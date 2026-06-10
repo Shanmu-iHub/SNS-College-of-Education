@@ -459,7 +459,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             <li><i class="fas fa-map-marker-alt mr-2"></i>Thudiyalur - Saravanampatti Road,<br />Chinavedampatti(PO),<br />Coimbatore - 641049</li>
                             <li><a href="tel:+919003655855" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission: +91-90036 55855</a></li>
                             <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Office: +91-7530093728/729</a></li>
-                            <li><a href="mailto:principal@snscphysio.org" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>Email: principal@snscphysio.org</a></li>
+                            <li><a href="mailto:principal@drsnsce.edu.in" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>Email: principal@drsnsce.edu.in</a></li>
                             <li><a href="mailto:job@snsgroups.com" class="hover:text-white transition"><i class="fas fa-briefcase mr-2"></i>Career: job@snsgroups.com</a></li>
                         </ul>
                         <div class="flex space-x-3">
