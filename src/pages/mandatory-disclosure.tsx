@@ -77,7 +77,7 @@ export const MandatoryDisclosurePage = () => {
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">11</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">College Email ID</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="mailto:office@drsnsce.edu.in" class="text-green-600 hover:underline">office@drsnsce.edu.in</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="mailto:principal@drsnsce.edu.in" class="text-green-600 hover:underline">principal@drsnsce.edu.in</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">12</td>

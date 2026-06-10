@@ -34,7 +34,7 @@ This project involved a transition from a generic "SNS Academy" template to a fu
 - Subject-specific methodologies (ELT, ICT, Inquiry-based).
 - Career opportunities tailored to each pedagogy.
 - Design Thinking integration across all course descriptions.
-- Contact: +91 75300 93729, office@drsnsce.edu.in
+- Contact: +91 75300 93729, principal@drsnsce.edu.in
 - Address: Thudiyalur - Saravanampatti Road, Coimbatore, Tamil Nadu
 
 ### **Sports & Clubs (Complete)**
